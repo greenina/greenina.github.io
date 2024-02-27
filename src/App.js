@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Topbar/>
       <section id="about"><About/></section>
-      <section id="projects"><Projects/></section>
+      {/* <section id="projects"><Projects/></section> */}
       <section id="publications"><Publications/></section>
       <Footer/>
     </div>

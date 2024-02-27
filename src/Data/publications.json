@@ -1,22 +1,41 @@
 [
     {
-        "title": "Designing for self-tracking of emotion and experience with tangible modality",
-        "authors": ["Kwangyoung Lee", "Hwajung Hong"],
+        "title": "The Typing Cure: Experiences with Large Language Model Chatbots for Mental Health Support",
+        "authors": ["Inhwa Song*", "Sachin R. Pendse*", "Neha Kumar", "Munmun De Choudhury"],
         "highlight_author": [0],
         "year": 2017,
-        "booktitle": "DIS 2017",
-        "state": "(To appear)",
-        "awards": ["Best Paper", "Honerable Mention"],
-        "url": "https://dl.acm.org/doi/abs/10.1145/3064663.3064697",
-        "pdf": "PDF/mindtracker2017.pdf",
-        "video": "https://www.youtube.com/watch?v=RflfWsLXDL8"
+        "booktitle": "Arxiv",
+        "state": "Under review",
+        "awards": [],
+        "url": "",
+        "pdf": "PDF/typingcure.pdf",
+        "video": "",
+        "arxiv": "https://arxiv.org/abs/2401.1436"
     },
     {
-        "title": "Designing for self-tracking of emotion and experience with tangible modality",
-        "authors": ["Kwangyoung Lee", "Hwajung Hong"],
-        "highlight_author": [],
+        "title": "Understanding God-Saeng (God生) Phenomenon: Young Generation’s Pursuit of Authentic Well-being",
+        "authors": ["Inhwa Song", "Kwangyoung Lee", "Janghee Cho", "Amon Rapp", "Hwajung Hong"],
+        "highlight_author": [0],
         "year": 2017,
-        "booktitle": "DIS 2017",
-        "awards": []
+        "booktitle": "",
+        "state": "Under review",
+        "awards": [],
+        "url": "",
+        "pdf": "",
+        "video": "",
+        "arxiv": ""
+    },
+    {
+        "title": "Learnersourcing Modular and Dynamic Multiple Choice Questions",
+        "authors": ["Haesoo Kim", "Inhwa Song", "Juho Kim"],
+        "highlight_author": [1],
+        "year": 2017,
+        "booktitle": "ACM L@S",
+        "state": "",
+        "awards": [],
+        "url": "",
+        "pdf": "PDF/kuiz.pdf",
+        "video": "",
+        "arxiv": ""
     }
 ]

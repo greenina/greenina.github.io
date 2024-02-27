@@ -144,6 +144,12 @@
     flex-direction: column;
 }
 
+.equal-contribution{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
 .publicationlist {
     display: flex;
     flex-direction: column;
