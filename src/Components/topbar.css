@@ -6,6 +6,16 @@
     display: none;
 }
 
+.topbar{
+    padding-top: 1%;
+}
+
+.contents > .name {
+    font-size: 40px;
+    font-weight: 800;
+    color: #3CB043;
+}
+
 .menu > .hamburger-bar {
     display: block;
     height: 24px;

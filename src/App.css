@@ -1,15 +1,119 @@
 .App {
   text-align: center;
+  /* font-size: 23px; */
 }
 
-section {
+/* section {
   padding: 24px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
+} */
 
 html {
   scroll-behavior: smooth;
 }
+
+/* Reset some default styles */
+body, h1, h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+.layout{
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+}
+
+header {
+  background-color: #f2f2f2;
+  padding: 10px 0;
+}
+
+main {
+  display: flex;
+}
+
+.left {
+  flex: 1;
+  padding: 20px;
+  /* background-color: rebeccapurple; */
+}
+
+.right {
+  flex: 3.5;
+  padding: 20px;
+  /* background-color: aquamarine; */
+  text-align: left;
+  /* font-size: 20px; */
+}
+#about{
+  font-size: 20px;
+  line-height: 177%;
+  font-weight: 300;
+}
+.left > .icons > a > img {
+  width: 12%;
+  /* height: 28px; */
+  padding-left: 3%;
+  padding-right: 3%;
+  transition: all 0.2s linear;
+}
+
+.left > .icons > a > img:hover {
+  transform: scale(1.2);
+}
+.news-title{
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.button {
+  display: block;
+  background-color: #ddd;
+  padding: 10px;
+  text-align: center;
+  margin: 10px 0;
+  text-decoration: none;
+  color: black;
+}
+
+.profile-img {
+  width: 100%;
+  /* height: 100%; */
+  background-color: #ccc;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  text-align: center;
+  line-height: 100px;
+  margin-bottom: 20px;
+}
+
+.content > .about{
+  text-align: left;
+}
+
+.news-section {
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  main {
+      flex-direction: column;
+  }
+
+  aside, .content {
+      padding: 10px;
+  }
+  .left{
+    display: none;
+  }
+}
+
+/* Add more styles as needed */

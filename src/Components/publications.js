@@ -15,7 +15,7 @@ export const Publications = (props) => {
                                 <div className='title'>{publication.title}</div>
                                 <div className='authors'>{publication.authors.map((author, index) => 
                                     <span className='authorholder'>
-                                        <span className={publication.highlight_author.includes(index) ? "highlight_author" : "author"}><a href="">{author}</a></span>
+                                        <span className={publication.highlight_author.includes(index) ? "highlight_author" : "author"}>{author}</span>
                                         {index < publication.authors.length - 1 ? ', ' : ''}
                                     </span>
                                     )}
