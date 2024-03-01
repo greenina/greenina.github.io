@@ -8,12 +8,17 @@
 
 .topbar{
     padding-top: 1%;
+    /* background-color:antiquewhite; */
 }
 
 .contents > .name {
     font-size: 40px;
     font-weight: 800;
     color: #3CB043;
+    justify-content: flex-end;
+    text-align: center;
+    flex:1;
+    /* padding: 20px; */
 }
 
 .menu > .hamburger-bar {
@@ -106,6 +111,8 @@
 @media  (min-width:800px) {
     .links {
         display: flex;
+        flex: 3.5;
+        padding: 20px;
     }
     .burger-icon {
         display: none;
@@ -115,6 +122,9 @@
 @media (min-width:1200px) {
     .links {
         display: flex;
+        flex: 3.5;
+        justify-content: flex-end;
+        padding: 20px;
     }
     .burger-icon {
         display: none;

@@ -6,17 +6,19 @@ export const Topbar = (props) => {
     return(
         <nav className='topbar'>
             <div className='contents'>
-                <div className='name'>Inhwa Song</div>
+                <div className='name'>  Inhwa Song</div>
                 <input className="burger-check" type="checkbox" id="burger-check" /><label className="burger-icon" htmlFor="burger-check"><span className="burger-sticks"></span></label>
                 <div className='menu'>                         
                     <a href="#about" className='hamburger-bar'>About Me</a>
                     {/* <a href="#projects" className='hamburger-bar'>Projects</a> */}
                     <a href="#publications" className='hamburger-bar'>Publications</a>
+                    <a href="#CV" className='hamburger-bar'>CV</a>
                 </div>
                 <div className='links'>
                     <a href="#about">About Me</a>
                     {/* <a href="#projects">Projects</a> */}
                     <a href="#publications">Publications</a>
+                    <a href="PDF/CV.pdf">CV</a>
                 </div>             
             </div>
         </nav>
