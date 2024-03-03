@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import './PublicationEntry.css'
 
 const PubBtn = ({href, icon, text}) => {
@@ -23,6 +24,7 @@ const PubBtn = ({href, icon, text}) => {
 }
 
 const PublicationEntry = ({publication}) => {
+  const [abstract, setAbstract] = useState(false)
   return (
     <div className='publication' key={publication.title}>
       <div className='publication-info'>
@@ -54,7 +56,9 @@ const PublicationEntry = ({publication}) => {
           {publication.url ? <PubBtn href={publication.url}/> : null}
           {publication.pdf ? <PubBtn href={publication.pdf} text="PDF"/> : null}
           {publication.arxiv ? <PubBtn href={publication.arxiv} text="Arxiv"/> : null}
+          {publication.abstract ? <div onClick={() => {setAbstract(!abstract)}}><PubBtn text="Abs"/></div> : null}
       </div>
+      {abstract?<div className='abstract'> {publication.abstract} </div>:null}
   </div>
   )
 }
