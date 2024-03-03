@@ -162,93 +162,6 @@
     flex-direction: column;
 }
 
-.publication {
-    margin-bottom: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.publication > .info {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.publication > .info > .maininfo {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.publication > .info > .maininfo > .title {
-    font-size: 23px;
-    font-weight: 600;
-    margin-bottom: 6px;
-   
-}
-.publication > .info > .maininfo > .title:hover{
-    color: #3CB043;
-}
-
-.publication > .info > .maininfo > .authors {
-    display: inline-block;
-    text-align: left;
-    /* font-style: italic; */
-    margin-bottom: 8px;
-    font-size: 20px;
-}
-
-.publication > .info > .maininfo > .authors > .authorholder > .highlight_author {
-    font-weight: bold;
-}
-
-.publication > .awards {
-    display: inline-block;
-    text-align: left;
-    margin-bottom: 8px;
-}
-
-.publication > .awards > .award {
-    color: var(--theme-color);
-    font-weight: 700;
-    margin-right: 14px;
-}
-
-.publication > .links {
-    display: flex;
-}
-
-.publication > .links > a {
-    margin-right: 10px;
-}
-
-.publication > .links > a:hover {
-    color: darkgray;
-}
-
-.publication > .info > .subinfo {
-    display: inline-block;
-    /* flex-direction: row;
-    align-items: end; */
-    width: 100%;
-    text-align: left;
-    margin-bottom: 4px;
-}
-
-.publication > .info > .subinfo > .booktitle {
-    /* font-weight: bold; */
-    font-size: 20px;
-    margin-right: 6px;
-}
-.publication > .info > .subinfo > .state {
-    /* font-weight: bold; */
-    font-size: 17px;
-    /* margin-right: 6px; */
-}
-
 .footer {
     margin-top: 50px;
     display: flex;
@@ -302,18 +215,6 @@
         margin-top: 40px;
         width: 100%;
     }
-    .publication > .info {
-        flex-direction: row;
-    }
-    .publication > .info > .subinfo {
-        display: flex;
-        flex-direction: column;
-        text-align: right;
-        width: 130px;
-    }
-    .publication > .info > .subinfo > .booktitle {
-        margin-right: 0;
-    }
 }
 
 @media (min-width: 1008px) {
@@ -356,17 +257,5 @@
     .publications {
         margin-top: 40px;
         width: 100%;
-    }
-    .publication > .info {
-        flex-direction: row;
-    }
-    .publication > .info > .subinfo {
-        display: flex;
-        flex-direction: column;
-        text-align: right;
-        width: 130px;
-    }
-    .publication > .info > .subinfo > .booktitle {
-        margin-right: 0;
     }
 }
