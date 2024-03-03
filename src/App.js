@@ -32,7 +32,7 @@ function App() {
             <div className='middle'>
               I am a highly motivated undergraduate HCI researcher at <a>
                   KAIST School of Computing
-                </a>, currently a research intern at 
+                </a>, starting a research intern at 
                 <a>NAVER AI Lab</a>, 
                 advised by <a href="http://younghokim.net">Young-Ho Kim</a>. Throughout my research trajectory, I was immensely lucky to be advised by 
               <a href="https://galaxytourist.notion.site/galaxytourist/Hwajung-Hong-cc10b0291bbe4ca38dbf4882cd687423">Hwajung Hong</a>, <a href="https://jangheecho15.github.io"> Janghee Cho</a>, <a href="https://juhokim.com"> Juho Kim</a>, <a href="http://www.munmund.net"> Munmun De Choudhury</a>, and <a href="https://www.nehakumar.org/"> Neha Kumar</a>, 
