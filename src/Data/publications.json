@@ -70,7 +70,7 @@
         "authors": [
             {
                 "name": "Haesoo Kim",
-                "url": "https://haesookim.info/"
+                "url": "https://haesookim.info"
             }, 
             {
                 "name": "Inhwa Song", 
@@ -78,13 +78,13 @@
             },
             {
                 "name": "Juho Kim",
-                "url": "https://juhokim.com/o"
+                "url": "https://juhokim.com"
             }
         ],
         "highlight_author": [1],
         "year": 2017,
-        "booktitle": "ACM L@S",
-        "state": "",
+        "booktitle": "ACM L@S 2022",
+        "state": "Workshop",
         "awards": [],
         "url": "",
         "pdf": "PDF/kuiz.pdf",
