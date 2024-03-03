@@ -4,7 +4,7 @@ import './components.css'
 export const Footer = (props) => {
     return(
         <div className='footer'>
-            Copyright © Hyunseung Lim
+            Copyright © Inhwa Song
         </div>
     )
 }
