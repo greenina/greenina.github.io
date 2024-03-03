@@ -10,7 +10,7 @@ const Home = () => {
         <div className='icons'>
             <a href='mailto:igreen0485@kaist.ac.kr'><img src="/icons/mail.svg" alt="mail"/></a>
             <a href='https://scholar.google.com/citations?user=wSmDOjUAAAAJ&hl=en'><img src="/icons/scholar.svg" alt="scholar"/></a>
-            <a href='https://twitter.com/_inhwa_song'><img src="/icons/twitter.svg" alt="mail"/></a>
+            <a href='https://twitter.com/_inhwa_song'><img src="/icons/twitter.svg" alt="twitter"/></a>
             <a href='https://www.linkedin.com/in/inhwa-song-993b091a7/'><img src="/icons/linkedin.svg" alt="linkedin"/></a>
             {/* <a href='PDF/CV.pdf'><img src="/icons/cv.svg" alt="cv"/></a> */}
             <a href='https://github.com/greenina'><img src="/icons/github.svg" alt="github"/></a>
