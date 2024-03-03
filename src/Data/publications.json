@@ -20,7 +20,7 @@
             }
         ],
         "highlight_author": [0],
-        "year": 2017,
+        "year": 2024,
         "booktitle": "",
         "state": "(Under review)",
         "awards": [],
@@ -55,7 +55,7 @@
             }
         ],
         "highlight_author": [0],
-        "year": 2017,
+        "year": 2024,
         "booktitle": "",
         "state": "(Under review)",
         "awards": [],
@@ -82,8 +82,8 @@
             }
         ],
         "highlight_author": [1],
-        "year": 2017,
-        "booktitle": "ACM L@S 2022",
+        "year": 2022,
+        "booktitle": "ACM L@S",
         "state": "Workshop",
         "awards": [],
         "url": "",

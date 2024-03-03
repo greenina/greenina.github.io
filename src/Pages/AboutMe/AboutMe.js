@@ -2,8 +2,8 @@ import './AboutMe.css'
 
 const AboutMe = () => {
   return(
-    <div>
-      To Be Done
+    <div className='about-layout'>
+      To be done!
     </div>
   )
 }
