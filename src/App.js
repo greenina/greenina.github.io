@@ -5,31 +5,11 @@ import { About } from './Components/about';
 // import { Projects } from './Components/projects';
 import { Publications } from './Components/publications';
 import { Footer } from './Components/footer';
-import publicationData from './Data/publications.json'
-
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <Topbar/>
-//       <section id="about"><About/></section>
-//       {/* <section id="projects"><Projects/></section> */}
-//       <section id="publications"><Publications/></section>
-//       <Footer/>
-//     </div>
-//   );
-// }
+import News from './Components/News/News';
 function App() {
   return (
     <div className="App">
       <Topbar/>
-      {/* <nav>
-          <ul>
-              <li><a href="#about">About me</a></li>
-              <li><a href="#publications">Publications</a></li>
-              <li><a href="#cv">CV</a></li>
-          </ul>
-      </nav> */}
       <div className='layout'>
         <section className = "left">
           <img src={'images/profile.png'} class="profile-img" alt="profile"/>
@@ -43,7 +23,7 @@ function App() {
           <div className='news'>
             <div className='news-header'>
               <div className='news-title'>News</div>
-              <hr/>
+              <News/>
             </div>
           </div>
         </section>

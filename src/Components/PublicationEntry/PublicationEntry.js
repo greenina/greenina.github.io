@@ -22,8 +22,7 @@ const PubBtn = ({href, icon, text}) => {
   )
 }
 
-const PublicationEntry = (props) => {
-  const publication = props.publication
+const PublicationEntry = ({publication}) => {
   return (
     <div className='publication' key={publication.title}>
       <div className='publication-info'>
