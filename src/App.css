@@ -55,6 +55,35 @@ main {
   line-height: 177%;
   font-weight: 300;
 }
+#about > .middle > a{
+  display: inline-block;
+  /* color: #3CB043; */
+  font-weight: 500;
+  text-decoration-line: none;
+  color: #525252;
+
+}
+#about > .middle > a:hover {
+  display: inline-block;
+  color: #3CB043;
+  /* font-weight: 500; */
+}
+#about > .style1 {
+  display: inline;
+  font-style: italic;
+  font-weight: 600;
+  /* color: #; */
+  box-shadow: inset 0 -12px 0 rgba(60, 176, 67, 0.3);
+}
+
+#about > .style1:hover {
+  filter: brightness(85%);
+}
+
+.middle {
+  /* padding-bottom: 10px; */
+  padding-top: 10px;
+}
 .left > .icons > a > img {
   width: 12%;
   /* height: 28px; */
@@ -68,6 +97,7 @@ main {
 }
 .news{
   margin-top: 2%;
+
 }
 .news-title{
   font-size: 25px;

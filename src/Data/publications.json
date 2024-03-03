@@ -1,11 +1,28 @@
 [
     {
         "title": "The Typing Cure: Experiences with Large Language Model Chatbots for Mental Health Support",
-        "authors": ["Inhwa Song*", "Sachin R. Pendse*", "Neha Kumar", "Munmun De Choudhury"],
+        "authors": [
+            {
+                "name": "Inhwa Song*",
+                "url": ""
+            }, 
+            {
+                "name": "Sachin R. Pendse*",
+                "url": "https://www.sachinpendse.in"
+            }, 
+            {
+                "name": "Neha Kumar",
+                "url": "https://www.nehakumar.org"
+            }, 
+            {
+                "name": "Munmun De Choudhury",
+                "url": "http://www.munmund.net"
+            }
+        ],
         "highlight_author": [0],
         "year": 2017,
         "booktitle": "",
-        "state": "Under review",
+        "state": "(Under review)",
         "awards": [],
         "url": "",
         "pdf": "PDF/typingcure.pdf",
@@ -14,11 +31,32 @@
     },
     {
         "title": "Understanding God-Saeng (God生) Phenomenon: Young Generation’s Pursuit of Authentic Well-being",
-        "authors": ["Inhwa Song", "Kwangyoung Lee", "Janghee Cho", "Amon Rapp", "Hwajung Hong"],
+        "authors": [
+            {
+                "name": "Inhwa Song",
+                "url": ""
+            }, 
+            {
+                "name": "Kwangyoung Lee", 
+                "url": ""
+            },
+            {
+                "name": "Janghee Cho",
+                "url": "https://jangheecho15.github.io"
+            }, 
+            {
+                "name": "Amon Rapp",
+                "url": "https://scholar.google.com/citations?hl=en&user=5W4AxFsAAAAJ"
+            },
+            {
+                "name": "Hwajung Hong",
+                "url": "https://galaxytourist.notion.site/galaxytourist/Hwajung-Hong-cc10b0291bbe4ca38dbf4882cd687423"
+            }
+        ],
         "highlight_author": [0],
         "year": 2017,
         "booktitle": "",
-        "state": "Under review",
+        "state": "(Under review)",
         "awards": [],
         "url": "",
         "pdf": "",
@@ -27,7 +65,20 @@
     },
     {
         "title": "Learnersourcing Modular and Dynamic Multiple Choice Questions",
-        "authors": ["Haesoo Kim", "Inhwa Song", "Juho Kim"],
+        "authors": [
+            {
+                "name": "Haesoo Kim",
+                "url": "https://haesookim.info/"
+            }, 
+            {
+                "name": "Inhwa Song", 
+                "url": ""
+            },
+            {
+                "name": "Juho Kim",
+                "url": "https://juhokim.com/o"
+            }
+        ],
         "highlight_author": [1],
         "year": 2017,
         "booktitle": "ACM L@S",

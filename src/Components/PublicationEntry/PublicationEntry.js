@@ -30,7 +30,9 @@ const PublicationEntry = ({publication}) => {
               <div className='publication-title'>{publication.title}</div>
               <div className='publication-authors'>{publication.authors.map((author, index) => 
                   <span className='authorholder'>
-                      <span className={publication.highlight_author.includes(index) ? "highlight_author" : "author"}>{author}</span>
+                    {author.url?
+                      <a href={author.url}>{author.name}</a>:
+                      <span className={publication.highlight_author.includes(index) ? "highlight_author" : "author"}>{author.name}</span>}
                       {index < publication.authors.length - 1 ? ', ' : ''}
                   </span>
                   )}

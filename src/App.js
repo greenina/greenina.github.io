@@ -1,7 +1,6 @@
 import './App.css';
 
 import { Topbar } from './Components/topbar';
-import { About } from './Components/about';
 // import { Projects } from './Components/projects';
 import { Publications } from './Components/publications';
 import { Footer } from './Components/footer';
@@ -28,11 +27,21 @@ function App() {
           </div>
         </section>
         <section class="right">
-          <article id="about">
+          <section id="about">
             <div>My research interests are centered around the dynamic interplay between technology design and its influence on individual well-being and mental health. I am particularly fascinated by the ways in which people engage with language models and personal informatics systems. Additionally, I believe that creativity has the power to be a catalyst for enhancing mental health and well-being, driving me to explore the nexus of technology and creativity, supporting individuals to seek innovative ways in each of their unique contexts to actively improve well-being and mental health. </div>
-            <div>I am a highly motivated undergraduate HCI researcher at KAIST School of Computing, currently a research intern at Naver AI Lab, advised by Young-Ho Kim. Throughout my research trajectory, I was immensely lucky to be advised by Hwajung Hong, Janghee Cho, Juho Kim, Munmun De Choudhury, and Neha Kumar, in DxD Lab, KIXLab, and SocWeB Lab (all names in alphabetical order). </div>
-            <div>I am a Ph.D. applicant for Fall 2025!</div>
-          </article>
+            <div className='middle'>
+              I am a highly motivated undergraduate HCI researcher at <a>
+                  KAIST School of Computing
+                </a>, currently a research intern at 
+                <a>NAVER AI Lab</a>, 
+                advised by <a href="http://younghokim.net">Young-Ho Kim</a>. Throughout my research trajectory, I was immensely lucky to be advised by 
+              <a href="https://galaxytourist.notion.site/galaxytourist/Hwajung-Hong-cc10b0291bbe4ca38dbf4882cd687423">Hwajung Hong</a>, <a href="https://jangheecho15.github.io"> Janghee Cho</a>, <a href="https://juhokim.com"> Juho Kim</a>, <a href="http://www.munmund.net"> Munmun De Choudhury</a>, and <a href="https://www.nehakumar.org/"> Neha Kumar</a>, 
+              in <a href="https://dxd-lab.github.io">DxD Lab</a>
+              , <a href="https://www.kixlab.org">KIXLab</a>,
+              and <a href="https://socweb.cc.gatech.edu">SocWeB Lab</a> (all names in alphabetical order). 
+            </div>
+            <p className='style1'>I am a Ph.D. applicant for Fall 2025!</p>
+          </section>
           <section id="publications">
             <Publications/>
           </section>
