@@ -66,9 +66,15 @@ main {
 .left > .icons > a > img:hover {
   transform: scale(1.2);
 }
+.news{
+  margin-top: 2%;
+}
 .news-title{
-  font-size: 24px;
+  font-size: 28px;
   margin-bottom: 8px;
+  text-align: left;
+  color: gray;
+  font-weight: 800;
 }
 
 .button {

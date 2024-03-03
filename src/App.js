@@ -43,6 +43,7 @@ function App() {
           <div className='news'>
             <div className='news-header'>
               <div className='news-title'>News</div>
+              <hr/>
             </div>
           </div>
         </section>
@@ -52,9 +53,9 @@ function App() {
             <div>I am a highly motivated undergraduate HCI researcher at KAIST School of Computing, currently a research intern at Naver AI Lab, advised by Young-Ho Kim. Throughout my research trajectory, I was immensely lucky to be advised by Hwajung Hong, Janghee Cho, Juho Kim, Munmun De Choudhury, and Neha Kumar, in DxD Lab, KIXLab, and SocWeB Lab (all names in alphabetical order). </div>
             <div>I am a Ph.D. applicant for Fall 2025!</div>
           </article>
-          <article id="publications">
-            <section id="publications"><Publications/></section>
-          </article>
+          <section id="publications">
+            <Publications/>
+          </section>
         </section>
       </div>
       <Footer/>
