@@ -22,7 +22,7 @@
         "highlight_author": [0],
         "year": 2024,
         "booktitle": "",
-        "state": "(Under review)",
+        "state": "(Under review)\n Full paper",
         "awards": [],
         "url": "",
         "pdf": "PDF/typingcure.pdf",
@@ -57,13 +57,48 @@
         "highlight_author": [0],
         "year": 2024,
         "booktitle": "",
-        "state": "(Under review)",
+        "state": "(Under review)\nFull paper",
         "awards": [],
         "url": "",
         "pdf": "",
         "video": "",
         "arxiv": "",
         "abstract":"God-Saeng is a phenomenon among South Korean Gen-Z, epitomizing diligence, routine-based productivity, and well-being, in which people achieve it by committing themselves to practices such as going to the gym every morning. We conducted interviews and a 10-day probe study (N=24) to understand its perception, practice, and underlying aspirations. Our findings reveal a complex interplay between the aspirations for an ideal lifestyle and the pressures of societal expectations, highlighting a broad spectrum from genuine self-improvement to coping with societal expectations, revealing technology's focus on immediate behaviors rather than deeper aspirations or Gen-Z's complex realities. We further discuss the crucial role of recognizing and aligning with one’s underpinning values amidst external influences on perceptions of wellness. This awareness fosters a more authentic path to well-being, guiding the design of technology that supports holistic well-being."
+    },
+    {
+        "title": "Bridging Values and Technology in God-Saeng (God生) Phenomenon: Designing AI for Self-Directed Well-being",
+        "authors": [
+            {
+                "name": "Inhwa Song",
+                "url": ""
+            }, 
+            {
+                "name": "Kwangyoung Lee", 
+                "url": "https://kylee5514.github.io"
+            },
+            {
+                "name": "Janghee Cho",
+                "url": "https://jangheecho15.github.io"
+            }, 
+            {
+                "name": "Amon Rapp",
+                "url": "https://scholar.google.com/citations?hl=en&user=5W4AxFsAAAAJ"
+            },
+            {
+                "name": "Hwajung Hong",
+                "url": "https://galaxytourist.notion.site/galaxytourist/Hwajung-Hong-cc10b0291bbe4ca38dbf4882cd687423"
+            }
+        ],
+        "highlight_author": [0],
+        "year": 2024,
+        "booktitle": "ACM CHI'24",
+        "state": "Workshop",
+        "awards": [],
+        "url": "",
+        "pdf": "",
+        "video": "",
+        "arxiv": "",
+        "abstract":""
     },
     {
         "title": "Learnersourcing Modular and Dynamic Multiple Choice Questions",
