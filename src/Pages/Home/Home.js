@@ -30,7 +30,7 @@ const Home = () => {
                 KAIST School of Computing
               </a>, currently a research intern at <a>NAVER AI Lab</a>, where I am fortunate to be
               mentored by <a href="http://younghokim.net">Dr. Young-Ho Kim</a>, also to work with <a href="http://munmund.net">Dr. Munmun De Choudhury</a>. 
-              I was also incredibly lucky to have worked with  <a href="https://galaxytourist.notion.site/galaxytourist/Hwajung-Hong-cc10b0291bbe4ca38dbf4882cd687423">Dr. Hwajung Hong</a>, <a href="https://jangheecho15.github.io">Dr. Janghee Cho</a>, and <a href="http://juhokim.com">Dr. Juho Kim</a>, who inspired my love and devotion to HCI research.   
+              I was also incredibly lucky to have worked with  <a href="https://galaxytourist.notion.site/galaxytourist/Hwajung-Hong-cc10b0291bbe4ca38dbf4882cd687423">Dr. Hwajung Hong</a>, <a href="https://jangheecho15.github.io">Dr. Janghee Cho</a>, and <a href="http://juhokim.com">Dr. Juho Kim</a>, who inspired my love and devotion to HCI research💚.   
           </div>
           <p className='style1'>I am a Ph.D. applicant for Fall 2025!</p>
         </section>
