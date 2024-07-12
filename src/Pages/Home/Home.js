@@ -6,7 +6,7 @@ const Home = () => {
   return(
     <div className='home-layout'>
       <section className = "left">
-        <img src={'images/profile.png'} class="profile-img" alt="profile"/>
+        <img src={'images/test2.png'} class="profile-img" alt="profile"/>
         <div className='icons'>
             <a href='mailto:igreen0485@kaist.ac.kr'><img src="/icons/mail.svg" alt="mail"/></a>
             <a href='https://scholar.google.com/citations?user=wSmDOjUAAAAJ&hl=en'><img src="/icons/scholar.svg" alt="scholar"/></a>
