@@ -13,7 +13,7 @@ function App() {
         <Topbar/>
         <Routes>
           <Route path="/" element={<Home/>}/>
-          <Route path="/about" element={<AboutMe/>}/>
+          {/* <Route path="/about" element={<AboutMe/>}/> */}
         </Routes>
         <Footer/>
       </div>
