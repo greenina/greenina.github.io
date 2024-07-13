@@ -20,8 +20,8 @@ export const Topbar = (props) => {
                 <div className='links'>
                     {/* <a onClick={(e) => navigate("/about")}>About Me</a> */}
                     {/* <a href="#projects">Projects</a> */}
-                    <a href="#publications">Publications</a>
-                    <a href="https://docs.google.com/document/d/1_ZGuOP94-1kckQbOkkY-SongxzJVprdv0Ayx1lG5a30/edit?usp=sharing">CV</a>
+                    {/* <a href="#publications">Publications</a>
+                    <a href="https://docs.google.com/document/d/1_ZGuOP94-1kckQbOkkY-SongxzJVprdv0Ayx1lG5a30/edit?usp=sharing">CV</a> */}
                 </div>             
             </div>
         </nav>

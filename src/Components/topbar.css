@@ -2,6 +2,7 @@
     display: none;
 }
 
+
 .links {
     display: none;
 }
@@ -17,10 +18,11 @@
     color: #3CB043;
     justify-content: flex-end;
     text-align: center;
-    flex:1;
+    /* flex:1; */
     cursor: pointer;
     /* padding: 20px; */
 }
+
 
 .menu > .hamburger-bar {
     display: block;
