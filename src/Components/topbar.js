@@ -9,7 +9,7 @@ export const Topbar = (props) => {
     return(
         <nav className='topbar'>
             <div className='contents'>
-                <div className='name' onClick={(e) => navigate("/")}>  InHwa Song</div>
+                <div className='name' onClick={(e) => navigate("/")}>  Inhwa Song</div>
                 <input className="burger-check" type="checkbox" id="burger-check" /><label className="burger-icon" htmlFor="burger-check"><span className="burger-sticks"></span></label>
                 <div className='menu'>                         
                     <a href="#about" className='hamburger-bar'>About Me</a>

@@ -24,13 +24,22 @@ const Home = () => {
       </section>
       <section class="right">
         <section id="about">
-          <div>My recent research interests are centered around the dynamic interplay between technology design and its influence on individual well-being and mental health. I am particularly fascinated by the ways in which people engage with <b>language models</b> and <b>personal informatics</b> systems. Additionally, I believe that <b>creativity</b> has the power to be a catalyst for enhancing <b>mental health</b> and <b>well-being</b>, driving me to explore the nexus of technology and creativity, supporting individuals to seek innovative ways in each of their unique contexts to actively improve well-being and mental health. </div>
+          {/* <div>My recent research interests are centered around the dynamic interplay between technology design and its influence on individual well-being and mental health. I am particularly fascinated by the ways in which people engage with <b>language models</b> and <b>personal informatics</b> systems. Additionally, I believe that <b>creativity</b> has the power to be a catalyst for enhancing <b>mental health</b> and <b>well-being</b>, driving me to explore the nexus of technology and creativity, supporting individuals to seek innovative ways in each of their unique contexts to actively improve well-being and mental health. </div> */}
           <div className='middle'>
-          These interests guide my work as a highly motivated undergraduate HCI researcher at <img src={'images/nupzuk.png'} style={{ height: '1em', verticalAlign: 'middle' }}/> <a href="https://cs.kaist.ac.kr" className="kaist"target="_blank">
+            <div>
+            Hello! I am Inhwa Song. 
+            </div>
+          
+          I am a highly motivated undergraduate HCI researcher at <img src={'images/nupzuk.png'} style={{ height: '1em', verticalAlign: 'middle' }}/> <a href="https://cs.kaist.ac.kr" className="kaist"target="_blank">
                 KAIST School of Computing
               </a>, currently a research intern at <img src={'images/naver.png'} style={{ height: '1em', verticalAlign: 'middle' }}/> <a href="https://naver-career.gitbook.io/en/teams/clova-cic/ai-lab" target="_blank" className="naver">NAVER AI Lab</a>, where I am fortunate to be
               mentored by <a href="http://younghokim.net" target="_blank" id="name">Dr. Young-Ho Kim</a>. It has been my honor to be advised by <a href="http://munmund.net" target="_blank" id="name">Dr. Munmun De Choudhury</a> while I was at <img src={'images/gtbee.svg'} style={{ height: '1em', verticalAlign: 'middle' }}/> <a href="https://www.cc.gatech.edu/" target="_blank" className="gt"> Georgia Tech</a> as an exchange student.
-              I was also incredibly lucky to have worked with  <a href="https://galaxytourist.notion.site/galaxytourist/Hwajung-Hong-cc10b0291bbe4ca38dbf4882cd687423" target="_blank" id="name">Dr. Hwajung Hong</a>, <a href="https://jangheecho15.github.io" target="_blank" id="name">Dr. Janghee Cho</a>, and <a href="http://juhokim.com" target="_blank" id="name">Dr. Juho Kim</a>, who all inspired my love and devotion to HCI research💚.   
+              I was also incredibly lucky to have worked with  <a href="https://galaxytourist.notion.site/galaxytourist/Hwajung-Hong-cc10b0291bbe4ca38dbf4882cd687423" target="_blank" id="name">Dr. Hwajung Hong</a>, <a href="https://jangheecho.com/" target="_blank" id="name">Dr. Janghee Cho</a>, and <a href="http://juhokim.com" target="_blank" id="name">Dr. Juho Kim</a>, who all inspired my love and devotion to HCI research💚.   
+          </div>
+          <div>
+          My research interests lie at the intersection of Human-Computer Interaction and Natural Language Processing. 
+          Recently, my work has focused on developing and evaluating language technologies and personal informatics systems and designing user interactions that support wellbeing and mental health. 
+          Additionally, I am fascinated by evaluating and enhancing cultural alignment within these contexts.
           </div>
           <p className='style1'>I am a Ph.D. applicant for Fall 2025!</p>
         </section>
