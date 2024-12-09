@@ -1,19 +1,313 @@
 [
     {
-        "title": "Datopia",
-        "people": ["Hyunseung Lim", "Dasom Choi", "Kwangyoung Lee", "Taewan Kim", "Eunseo Oh", "Inhwa Song", "Seokyoung Park", "Yubin Choi", "Hwajung Hong"],
-        "highlight_people": [0],
-        "year": "2022",
-        "description": "Datopia is a data-based dating service. By analyzing data, it captures everything from the preferences you didn't know you had to your minor daily habits. Through this, it goes beyond simple encounters to find you a destined partner with whom you can maintain a continuous relationship. But can love really be determined solely by data?",
-        "image": "project_1.png"
-    }
-    ,
+        "title": "ARA: Official KAIST Online Community",
+        "year": "2021-2023",
+        "description": "Built ",
+        "image": "/PDF/teaser/ara.jpg",
+        "urls": [
+            {
+                "type": "code",
+                "text": "frontend",
+                "href": "https://github.com/sparcs-kaist/new-ara-web"
+            },
+            {
+                "type": "code",
+                "text": "backend",
+                "href": "https://github.com/sparcs-kaist/new-ara-api"
+            },
+            {
+                "type": "website",
+                "text": "website",
+                "href": "https://ara.kaist.ac.kr/"
+            }
+        ],
+        "tags": [
+            "open-source-contribution",
+            "online-community-moderation",
+            "real-world-deployment"
+        ],
+        "categories": [
+            "System Building"
+        ],
+        "my_role": "Implemented both frontend and backend (in collaboration with SPARCS members), moderated the online community"
+    },
     {
-        "title": "Datopia",
-        "people": ["Hyunseung Lim", "Dasom Choi", "Kwangyoung Lee", "Taewan Kim", "Eunseo Oh", "Inhwa Song", "Seokyoung Park", "Yubin Choi", "Hwajung Hong"],
-        "highlight_people": [0],
+        "title": "KUIZ: Learnersourcing Dynamic and Modular Multiple Choice Questions",
+        "year": "2021-2022",
+        "description": "Built ",
+        "image": "/PDF/teaser/kuiz.png",
+        "urls": [
+            {
+                "type": "code",
+                "text": "frontend",
+                "href": "https://github.com/kixlab/kuiz-v2-react"
+            },
+            {
+                "type": "code",
+                "text": "backend",
+                "href": "https://github.com/greenina/kuiz-v2-node"
+            },
+            {
+                "type": "pdf",
+                "text": "workshop paper",
+                "href": "/PDF/kuiz.pdf"
+            }
+        ],
+        "tags": [
+            "real-class-testing",
+            "crowdsourcing",
+            "research",
+            "social-computing"
+        ],
+        "categories": [
+            "System Building"
+        ],
+        "my_role": "Led the whole development (from ideation, iterative design, implementation, to real class deployment), designed and moderated the real class deployment, co-authored a workshop paper stemming from the system idea"
+    },
+    {
+        "title": "ExploreSelf: Learnersourcing Dynamic and Modular Multiple Choice Questions",
+        "year": "2024",
+        "description": "Built ",
+        "image": "/PDF/teaser/exploreself.jpg",
+        "urls": [
+            {
+                "type": "code",
+                "text": "code (monorepo)",
+                "href": "https://github.com/greenina/reauthor-monorepo"
+            },
+            {
+                "type": "pdf",
+                "text": "full paper",
+                "href": "https://arxiv.org/abs/2409.09662"
+            }
+        ],
+        "tags": [
+            "human-AI-interaction",
+            "research"
+        ],
+        "categories": [
+            "System Building"
+        ],
+        "my_role": "Led the whole development (ideation, iterative design, implementation, and user testing), drafted paper and made submission, addressed the reviews"
+    },
+    {
+        "title": "Uplife: Phone Usage Pattern supporting Goal Setting for Behavior Change",
+        "year": "2021",
+        "description": "Built ",
+        "image": "/PDF/teaser/uplife.jpg",
+        "urls": [
+            {
+                "type": "code",
+                "text": "code",
+                "href": "https://github.com/CheddarChoi/uplife"
+            },
+            {
+                "type": "video",
+                "text": "video",
+                "href": "https://www.youtube.com/watch?v=f6FALc9kcOk&t=2s"
+            }
+        ],
+        "tags": [
+            "data-visualization",
+            "course-project"
+        ],
+        "categories": [
+            "System Building",
+            "Data Analysis"
+        ],
+        "my_role": "Equally led the technical implementation, data analysis, and design (in a team of 3)"
+    },
+    {
+        "title": "Altelper: VScode Extension with Transformer based Context Aware Image Captioning",
         "year": "2022",
-        "description": "Datopia is a data-based dating service. By analyzing data, it captures everything from the preferences you didn't know you had to your minor daily habits.",
-        "image": "project_1.png"
+        "description": "Built ",
+        "image": "/PDF/teaser/althelper.jpg",
+        "urls": [
+            {
+                "type": "code",
+                "text": "code",
+                "href": "https://github.com/greenina/Altelper"
+            },
+            {
+                "type": "slide",
+                "text": "slide",
+                "href": "https://docs.google.com/presentation/d/1HtVEOajvkE9VovNApkW5Hnh0YG1iYpZJ1O1Np4nrkrg/edit?usp=sharing"
+            }
+        ],
+        "tags": [
+            "fine-tune-language-model",
+            "web-accessibility"
+        ],
+        "categories": [
+            "Deep Learning",
+            "System Building"
+        ],
+        "my_role": "Led the implementation of vscode-extention, co-led fine-tuning image image captioning model"
+    },
+    {
+        "title": "Identify Language Features that Differentiate Mental Health Communities on Reddit",
+        "year": "2022",
+        "description": "Built ",
+        "image": "/PDF/teaser/mh-communities.jpg",
+        "urls": [
+            {
+                "type": "pdf",
+                "text": "full paper",
+                "href": "https://inhwasong.com/PDF/reddit_mhcommunities_language.pdf"
+            }
+        ],
+        "tags": [
+            "Large-scale-data-analysis",
+            "deep-learning"
+        ],
+        "categories": [
+            "Data Analysis",
+            "Deep Learning"
+        ],
+        "my_role": "Implemented bi-directional LSTM model from scratch, applied the SHAP technique for model interpretability"
+    },
+    {
+        "title": "CubeFit: Minimizing Cuboids and Maximizing Coverage in 3D Shape via MCTS",
+        "year": "2022",
+        "description": "Built ",
+        "image": "/PDF/teaser/cubefit.jpg",
+        "urls": [
+            {
+                "type": "link",
+                "text": "slides",
+                "href": "/PDF/cubefit-slides.pdf"
+            },
+            {
+                "type": "pdf",
+                "text": "full paper",
+                "href": "/PDF/cubefit-paper.pdf"
+            }
+        ],
+        "tags": [
+            "deep-reinforcement-learning",
+            "3D-shape-segmentation",
+            "monte-carlo-tree-search"
+        ],
+        "categories": [
+            "Deep Learning"
+        ],
+        "my_role": "Equally led the implementation of MCTS algorithm (in a team of 3)"
+    },
+    {
+        "title": "ABANG: Online Community Supporting Memory-Logging of Friends",
+        "year": "2022",
+        "description": "Built ",
+        "image": "/PDF/teaser/abang.jpg",
+        "urls": [
+            {
+                "type": "code",
+                "text": "code",
+                "href": "https://github.com/greenina/CS473-ABANG"
+            }
+        ],
+        "tags": [
+            "social-computing",
+            "course-project"
+        ],
+        "categories": [
+            "System Building"
+        ],
+        "my_role": "Led the technical implementation (in a team of 4)"
+    },
+    {
+        "title": "Authoring Personal Algorithm for Daily Score",
+        "year": "2022",
+        "description": "Built ",
+        "image": "/PDF/teaser/quantified-self.jpg",
+        "urls": [
+            {
+                "type": "video",
+                "text": "presentation",
+                "href": "https://www.youtube.com/watch?v=M3GGdU9V9cA&t=2140s"
+            },
+            {
+                "type": "website",
+                "text": "wiki",
+                "href": "https://wiki.openhumans.org/wiki/Authoring_Algorithm_for_Daily_Score"
+            },
+            {
+                "type": "link",
+                "text": "press (in Korean)",
+                "href": "https://times.kaist.ac.kr/news/articleView.html?idxno=21170"
+            }
+        ],
+        "tags": [
+            "quantified-self",
+            "personal-project"
+        ],
+        "categories": [
+            "Data Analysis",
+            "System Building"
+        ],
+        "my_role": "Invited for a talk at the Open Humans Keating Memorial event, a personal self-tracking project"
+    },
+    {
+        "title": "Typing Cure: Experiences with LLM Chatbots for Mental Health Support",
+        "year": "2022",
+        "description": "Built ",
+        "image": "/PDF/teaser/typingcure.png",
+        "urls": [
+            {
+                "type": "pdf",
+                "text": "full paper",
+                "href": "https://arxiv.org/abs/2401.14362"
+            }
+        ],
+        "tags": [
+            "mental-health",
+            "research",
+            "human-AI-interaction"
+        ],
+        "categories": [
+            "Qualitative Method"
+        ],
+        "my_role": "Conducted semi-structured interviews of 21 participants, recruited participants from every inhabited continent, conducted thematic analysis grounding on psychotherapy literature, drafted paper and made submission, addressed the reviews"
+    },
+    {
+        "title": "Understanding the God-Saeng Phenomenon",
+        "year": "2022",
+        "description": "Built ",
+        "image": "/PDF/teaser/god-saeng.png",
+        "urls": [
+            {
+                "type": "pdf",
+                "text": "full paper",
+                "href": "https://www.youtube.com/watch?v=M3GGdU9V9cA&t=2140s"
+            }
+        ],
+        "tags": [
+            "personal-informatics",
+            "research",
+            "cultural-probe"
+        ],
+        "categories": [
+            "Qualitative Method"
+        ],
+        "my_role": "Designed and conducted the cultural probe, drafted paper and made submission"
+    },
+    {
+        "title": "Igreen: Online Community Supporting Users’ Earth Friendly Consumption",
+        "year": "2022",
+        "description": "Built ",
+        "image": "/PDF/teaser/igreen.jpg",
+        "urls": [
+            {
+                "type": "code",
+                "text": "code",
+                "href": "https://github.com/greenina/twixigreen"
+            }
+        ],
+        "tags": [
+            "course-project"
+        ],
+        "categories": [
+            "System Building"
+        ],
+        "my_role": "Equally led the development and design (in a team of 4)"
     }
 ]

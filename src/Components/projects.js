@@ -1,33 +1,38 @@
-import React from 'react'
+import { useState } from 'react'
 import './components.css'
 import projectData from '../Data/projects.json'
+import ProjectEntry from './projectEntry'
+import { Segmented } from 'antd';
 
 
 export const Projects = (props) => {
-    return(
-        <div className="projects">
-            <div className='title'>Projects</div>
-            <div className='projectlist'>
-                {projectData.map(project => (
-                        <div className='project' key={project.title}>
-                                <img src={'images/' + project.image} alt={project.title}/>
-                                <div className='projectcontents'>
-                                    <span className='title'>
-                                        <span>{project.title}</span>
-                                        <span className='year'> ({project.year})</span>
-                                    </span>
-                                    <div className='authors'>{project.people.map((person, index) => 
-                                        <span className='authorholder'>
-                                            <span className={project.highlight_people.includes(index) ? "highlight_person" : "person"}>{person}</span>
-                                            {index < project.people.length - 1 ? ', ' : ''}
-                                        </span>
-                                    )}</div>
-                                    <div className='description'>{project.description}</div>
-                                </div>
+    const [selectedCategory, setSelectedCategory] = useState('All');
+    const handleCategoryChange = (value) => {
+        setSelectedCategory(value);
+    };
+    const filteredProjects = projectData.filter((project) => {
+        if (selectedCategory === 'All') {
+            return true;
+        }
+        return project.categories.includes(selectedCategory);
+    });
+    return (
+        <div className="w-full flex flex-col mt-3">
+            <div className="text-gray-400 text-2xl font-extrabold mb-2">Projects</div>
+            A selection of previous projects that I have done, for research, coursework, and of course, for fun!
 
-                        </div>
-                    ))}
+            <Segmented
+                options={['All', 'System Building', 'Deep Learning', 'Data Analysis', 'Qualitative Method']}
+                onChange={handleCategoryChange}
+                className='my-4'
+            />
+            <div className="flex flex-col">
+                {filteredProjects.map((project) => (
+                    <ProjectEntry key={project.id} project={project} />
+                ))}
             </div>
         </div>
     )
 }
+
+export default Projects;

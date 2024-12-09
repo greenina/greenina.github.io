@@ -1,6 +1,7 @@
 [
     {
         "title": "ExploreSelf: Fostering User-driven Exploration and Reflection on Personal Challenges with Adaptive Guidance by Large Language Models",
+        "img": "/PDF/teaser/exploreself.jpg",
         "authors": [
             {
                 "name": "Inhwa Song",
@@ -38,10 +39,11 @@
         "pdf": "PDF/exploreself.pdf",
         "video": "",
         "arxiv": "https://arxiv.org/abs/2409.09662",
-        "abstract": ""
+        "abstract": "Expressing stressful experiences in words is proven to improve mental and physical health, but individuals often disengage with writing interventions as they struggle to organize their thoughts and emotions. Reflective prompts have been used to provide direction, and large language models (LLMs) have demonstrated the potential to provide tailored guidance. Current systems often limit users' flexibility to direct their reflections. We thus present ExploreSelf, an LLM-driven application designed to empower users to control their reflective journey. ExploreSelf allows users to receive adaptive support through dynamically generated questions. Through an exploratory study with 19 participants, we examine how participants explore and reflect on personal challenges using ExploreSelf. Our findings demonstrate that participants valued the balance between guided support and freedom to control their reflective journey, leading to deeper engagement and insight. Building on our findings, we discuss implications for designing LLM-driven tools that promote user empowerment through effective reflective practices."
     },
     {
         "title": "The Typing Cure: Experiences with Large Language Model Chatbots for Mental Health Support",
+        "img": "",
         "authors": [
             {
                 "name": "Inhwa Song*",
@@ -74,7 +76,113 @@
         "abstract": "People experiencing severe distress increasingly use Large Language Model (LLM) chatbots as mental health support tools. Discussions on social media have described how engagements were lifesaving for some, but evidence suggests that general-purpose LLM chatbots also have notable risks that could endanger the welfare of users if not designed responsibly. In this study, we investigate the lived experiences of people who have used LLM chatbots for mental health support. We build on interviews with 21 individuals from globally diverse backgrounds to analyze how users create unique support roles for their chatbots, fill in gaps in everyday care, and navigate associated cultural limitations when seeking support from chatbots. We ground our analysis in psychotherapy literature around effective support, and introduce the concept of therapeutic alignment, or aligning AI with therapeutic values for mental health contexts. Our study offers recommendations for how designers can approach the ethical and effective use of LLM chatbots and other AI mental health support tools in mental health care."
     },
     {
+        "title": "Survey of Cultural Awareness in Language Models: Text and Beyond",
+        "img": "/PDF/teaser/multicultural_survey.jpg",
+        "authors": [
+            {
+                "name": "Siddhesh Milind Pawar",
+                "url": ""
+            },
+            {
+                "name": "Junyeong Park",
+                "url": ""
+            },
+            {
+                "name": "Jiho Jin",
+                "url": ""
+            },
+            {
+                "name": "Arnav Arora",
+                "url": ""
+            },
+            {
+                "name": "Junho Myung",
+                "url": ""
+            },
+            {
+                "name": "Srishti Yadav",
+                "url": ""
+            },
+            {
+                "name": "Faiz Ghifari Haznitrama",
+                "url": ""
+            },
+            {
+                "name": "Inhwa Song",
+                "url": ""
+            },
+            {
+                "name": "Alice Oh",
+                "url": ""
+            },
+            {
+                "name": "Isabelle Augenstein",
+                "url": ""
+            }
+        ],
+        "highlight_author": [
+            7
+        ],
+        "year": 2024,
+        "booktitle": "",
+        "state": "Full paper\n (under review)",
+        "awards": [],
+        "url": "",
+        "pdf": "PDF/multicultural_survey.pdf",
+        "video": "",
+        "openreview": "https://openreview.net/forum?id=3gg6GHhuvi",
+        "arxiv": "",
+        "abstract": "Large-scale deployment of large language models (LLMs) in various applications, such as chatbots and virtual assistants, requires LLMs to be culturally sensitive to the user to ensure inclusivity. Culture has been widely studied in psychology and anthropology, and there has been a recent surge in research on making LLMs more culturally inclusive in LLMs that goes beyond multilinguality and builds on findings from psychology and anthropology. In this paper, we survey efforts towards incorporating cultural awareness into text-based and multimodal LLMs. We start by defining cultural awareness in LLMs, taking the definitions of culture from anthropology and psychology as a point of departure. We then examine methodologies adopted for creating cross-cultural datasets, strategies for cultural inclusion in downstream tasks, and methodologies that have been used for benchmarking cultural awareness in LLMs. Further, we discuss the ethical implications of cultural alignment, the role of Human-Computer Interaction in driving cultural inclusion in LLMs, and the role of cultural alignment in driving social science research. We finally provide pointers to future research based on our findings about gaps in the literature."
+    },
+    {
+        "title": "Mobile Technology and Teens: Understanding the Changing Needs of Sociocultural and Technical Landscape",
+        "img": "",
+        "authors": [
+            {
+                "name": "Janghee Cho",
+                "url": ""
+            },
+            {
+                "name": "Inhwa Song",
+                "url": ""
+            },
+            {
+                "name": "Zainab Agha",
+                "url": ""
+            },
+            {
+                "name": "Bengisu Cagiltay",
+                "url": ""
+            },
+            {
+                "name": "Veena Calambur",
+                "url": ""
+            },
+            {
+                "name": "Minjin Rheu",
+                "url": ""
+            },
+            {
+                "name": "Jina Huh-Yoo",
+                "url": ""
+            }
+        ],
+        "highlight_author": [
+            1
+        ],
+        "year": 2024,
+        "booktitle": "Arxiv",
+        "state": "CHI'25 Workshop Proposal (Conditionally Accepted)",
+        "awards": [],
+        "url": "",
+        "pdf": "",
+        "video": "",
+        "arxiv": "",
+        "abstract": "People experiencing severe distress increasingly use Large Language Model (LLM) chatbots as mental health support tools. Discussions on social media have described how engagements were lifesaving for some, but evidence suggests that general-purpose LLM chatbots also have notable risks that could endanger the welfare of users if not designed responsibly. In this study, we investigate the lived experiences of people who have used LLM chatbots for mental health support. We build on interviews with 21 individuals from globally diverse backgrounds to analyze how users create unique support roles for their chatbots, fill in gaps in everyday care, and navigate associated cultural limitations when seeking support from chatbots. We ground our analysis in psychotherapy literature around effective support, and introduce the concept of therapeutic alignment, or aligning AI with therapeutic values for mental health contexts. Our study offers recommendations for how designers can approach the ethical and effective use of LLM chatbots and other AI mental health support tools in mental health care."
+    },
+    {
         "title": "Bridging Values and Technology in God-Saeng (God生) Phenomenon: Designing AI for Self-Directed Well-being",
+        "img": "",
         "authors": [
             {
                 "name": "Inhwa Song",
@@ -102,7 +210,7 @@
         ],
         "year": 2024,
         "booktitle": "ACM CHI'24",
-        "state": "Workshop",
+        "state": "ACM CHI'24 Workshop",
         "awards": [],
         "url": "",
         "pdf": "PDF/godsaeng-workshop.pdf",
@@ -112,6 +220,7 @@
     },
     {
         "title": "Learnersourcing Modular and Dynamic Multiple Choice Questions",
+        "img": "/PDF/teaser/kuiz.png",
         "authors": [
             {
                 "name": "Haesoo Kim",
@@ -131,7 +240,7 @@
         ],
         "year": 2022,
         "booktitle": "ACM L@S'22",
-        "state": "Workshop",
+        "state": "ACM L@S'22 Workshop",
         "awards": [],
         "url": "",
         "pdf": "PDF/kuiz.pdf",

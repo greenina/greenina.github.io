@@ -4,9 +4,11 @@
   "homepage": "https://greenina.github.io",
   "private": true,
   "dependencies": {
+    "@fontsource/fira-code": "^5.1.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "antd": "^5.22.3",
     "bootstrap-icons": "^1.11.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -40,7 +42,10 @@
     ]
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.20",
     "gh-pages": "^6.1.1",
-    "react-router-dom": "^6.22.2"
+    "postcss": "^8.4.47",
+    "react-router-dom": "^6.22.2",
+    "tailwindcss": "^3.4.14"
   }
 }
