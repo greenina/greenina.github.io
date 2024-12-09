@@ -4,10 +4,11 @@ const PubBtn = ({ href, text }) => {
   return (
     <a
       href={href}
-      className="px-2 py-1 text-black text-sm font-semibold shadow-sm bg-gray-100 hover:bg-green-100 rounded-lg no-underline border"
+      className="text-black font-medium font-base hover:text-primary no-underline border px-1 rounded border-[#68A5B3]"
       target="_blank"
       rel="noopener noreferrer"
     >
+      {/* <span className="mr-2">•</span> */}
       {text}
     </a>
   );
@@ -40,14 +41,14 @@ const PublicationEntry = ({ publication }) => {
                     href={author.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gray-700 hover:text-green-600"
+                    className="text-gray-700 hover:text-primary"
                   >
                     {author.name}
                   </a>
                 ) : (
                   <span
                     className={`${publication.highlight_author.includes(index)
-                      ? 'text-gray-700 underline font-bold'
+                      ? 'text-gray-700 underline font-medium'
                       : 'text-gray-700'
                       }`}
                   >
@@ -58,13 +59,13 @@ const PublicationEntry = ({ publication }) => {
               </span>
             ))}
           </div>
-          <div className="text-lg mb-2">
-            {/* {publication.booktitle && <span className="text-gray-700">{publication.booktitle}</span>} */}
+          {/* <div className="text-lg mb-2">
             {publication.state && (
               <span className="text-gray-700 text-base">{publication.state}</span>
             )}
-          </div>
-          <div className="flex flex-wrap gap-2 mb-3">
+          </div> */}
+          <span className="flex flex-wrap gap-2 mb-3 items-center">
+            {publication.state && <span>{publication.state}</span>}
             {publication.url && <PubBtn href={publication.url} text="DOI" />}
             {publication.pdf && <PubBtn href={publication.pdf} text="PDF" />}
             {publication.arxiv && <PubBtn href={publication.arxiv} text="Arxiv" />}
@@ -79,7 +80,7 @@ const PublicationEntry = ({ publication }) => {
                 <PubBtn text="Abstract" />
               </div>
             )} */}
-          </div>
+          </span>
           {/* {abstract && (
             <div className="px-3 py-2 mt-2 border-l-4 border-green-300 text-gray-600 text-sm">
               {publication.abstract}

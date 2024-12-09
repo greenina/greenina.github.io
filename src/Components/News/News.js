@@ -5,11 +5,11 @@ import newsData from '../../Data/news.json'
 import NewsEntry from '../NewsEntry/NewsEntry'
 
 const News = () => {
-  return(
+  return (
     <div className='newslist'>
-        {newsData.map(news => (
-            <NewsEntry news={news}/>
-        ))}
+      {newsData.map(news => (
+        <NewsEntry news={news} />
+      ))}
     </div>
   )
 }

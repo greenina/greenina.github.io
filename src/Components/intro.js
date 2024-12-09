@@ -1,5 +1,5 @@
 const Intro = () => {
-  const nameClass = "hover:underline font-normal";
+  const nameClass = "hover:underline hover:decoration-wavy hover:decoration-[#68A5B3] font-normal text-gray-800 font-medium";
 
   return (
     <section className="text-[18px] leading-[177%] font-light">

@@ -1,9 +1,9 @@
 :root {
-    --theme-color: #3CB043;
+    --theme-color: #68A5B3;
 }
 
 .topbar {
-    position: fixed; 
+    position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
@@ -12,9 +12,11 @@
     align-items: center;
     height: 60px;
     background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* horizontal offset, vertical offset, blur radius, spread radius, color */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* horizontal offset, vertical offset, blur radius, spread radius, color */
 }
-.topbar  > .contents {
+
+.topbar>.contents {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -28,7 +30,7 @@
 } */
 
 
-.topbar > .contents > .links > a {
+.topbar>.contents>.links>a {
     text-decoration: none;
     color: black;
     margin-left: 45px;
@@ -36,7 +38,7 @@
     font-weight: 600;
 }
 
-.topbar > .contents > .links > a:hover {
+.topbar>.contents>.links>a:hover {
     color: var(--theme-color);
 }
 
@@ -48,43 +50,43 @@
     flex-direction: column;
 }
 
-.about > img {
+.about>img {
     max-width: 300px;
     width: 100%;
     border-radius: 10px;
 }
 
-.about > .contents {
+.about>.contents {
     margin: 30px 0 0 0;
     text-align: left;
     font-size: 17px;
     font-weight: 500;
 }
 
-.about > .contents > .greeting {
+.about>.contents>.greeting {
     font-weight: 700;
     font-size: 23px;
     margin-bottom: 20px;
 }
 
-.about > .contents > .description > a {
+.about>.contents>.description>a {
     text-decoration: none;
-    color: var( --theme-color);
+    color: var(--theme-color);
     font-weight: 600;
 }
 
-.about > .contents > .icons {
+.about>.contents>.icons {
     margin-top: 12px;
 }
 
-.about > .contents > .icons > a > img {
+.about>.contents>.icons>a>img {
     width: 28px;
     height: 28px;
     padding: 8px;
     transition: all 0.2s linear;
 }
 
-.about > .contents > .icons > a > img:hover {
+.about>.contents>.icons>a>img:hover {
     transform: scale(1.2);
 }
 
@@ -107,34 +109,34 @@
     margin-bottom: 30px;
 }
 
-.project > img {
+.project>img {
     width: 100%;
     margin-bottom: 10px;
 }
 
-.project > .projectcontents {
+.project>.projectcontents {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     text-align: left;
 }
 
-.project > .projectcontents > .title {
+.project>.projectcontents>.title {
     display: inline;
     font-size: 28px;
     margin-bottom: 8px;
 }
 
-.project > .projectcontents > .title > .year {
+.project>.projectcontents>.title>.year {
     font-weight: 400;
 }
 
-.project > .projectcontents > .authors {
+.project>.projectcontents>.authors {
     /* font-style: italic; */
     margin-bottom: 12px;
 }
 
-.project > .projectcontents > .authors > .authorholder > .highlight_person {
+.project>.projectcontents>.authors>.authorholder>.highlight_person {
     font-weight: 600;
 }
 
@@ -144,6 +146,7 @@
     display: flex;
     flex-direction: column;
 }
+
 .publications-header {
     font-size: 28px;
     color: gray;
@@ -151,7 +154,7 @@
     margin-bottom: 8px;
 }
 
-.equal-contribution{
+.equal-contribution {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -181,24 +184,28 @@
 
 
 @media (min-width: 708px) {
-    .topbar  > .contents {
+    .topbar>.contents {
         padding: 0;
         width: 80%;
     }
+
     .about {
         margin-top: 90px;
         width: 100%;
         flex-direction: row;
     }
-    .about > img {
+
+    .about>img {
         width: 250px;
         height: 250px;
         border-radius: 10px;
     }
-    .about > .contents {
+
+    .about>.contents {
         margin: 0 0 0 30px;
         text-align: left;
     }
+
     /* .projects {
         margin-top: 70px;
         width: 660px;
@@ -218,30 +225,36 @@
 }
 
 @media (min-width: 1008px) {
-    .topbar  > .contents {
+    .topbar>.contents {
         padding: 0;
         width: 80%;
     }
-    .topbar > .contents > .name{
-        flex:1
+
+    .topbar>.contents>.name {
+        flex: 1
     }
-    .topbar > .contents > .link{
-        flex:3.5
+
+    .topbar>.contents>.link {
+        flex: 3.5
     }
+
     .about {
         margin-top: 90px;
         width: 100%;
         flex-direction: row;
     }
-    .about > img {
+
+    .about>img {
         width: 300px;
         height: 300px;
         border-radius: 10px;
     }
-    .about > .contents {
+
+    .about>.contents {
         margin: 0 0 0 30px;
         text-align: left;
     }
+
     /* .projects {
         margin-top: 70px;
         width: 960px;

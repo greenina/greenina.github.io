@@ -10,13 +10,16 @@ import PublicationPage from './Pages/PublicationPage';
 function App() {
   return (
     <BrowserRouter>
-      <div className="App">
+      <div className="flex flex-col min-h-screen">
         <Topbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/projects" element={<ProjectPage />} />
-          <Route path="/publications" element={<PublicationPage />} />
-        </Routes>
+        <div className="flex-grow">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/projects" element={<ProjectPage />} />
+            <Route path="/publications" element={<PublicationPage />} />
+          </Routes>
+        </div>
+
         <Footer />
       </div>
     </BrowserRouter>
