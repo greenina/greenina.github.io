@@ -1,17 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.cd3be945.css",
-    "main.js": "/static/js/main.0b6b5d78.js",
+    "main.css": "/static/css/main.868a3d84.css",
+    "main.js": "/static/js/main.50a8f504.js",
     "static/js/453.b0aff858.chunk.js": "/static/js/453.b0aff858.chunk.js",
     "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
     "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/fira-code-latin-400-normal.woff": "/static/media/fira-code-latin-400-normal.f6c6f117610544fb0dc1.woff",
+    "static/media/fira-code-latin-400-normal.woff2": "/static/media/fira-code-latin-400-normal.602eb93fcc55fbc80a4f.woff2",
+    "static/media/fira-code-cyrillic-ext-400-normal.woff": "/static/media/fira-code-cyrillic-ext-400-normal.540023a9b46a9d831de2.woff",
+    "static/media/fira-code-cyrillic-ext-400-normal.woff2": "/static/media/fira-code-cyrillic-ext-400-normal.508458e8abdccadea533.woff2",
+    "static/media/fira-code-latin-ext-400-normal.woff": "/static/media/fira-code-latin-ext-400-normal.cdee089641063008e2be.woff",
+    "static/media/fira-code-greek-400-normal.woff": "/static/media/fira-code-greek-400-normal.ec960df5068862243cbc.woff",
+    "static/media/fira-code-cyrillic-400-normal.woff": "/static/media/fira-code-cyrillic-400-normal.9aada3df8b392ef1bbc7.woff",
+    "static/media/fira-code-greek-400-normal.woff2": "/static/media/fira-code-greek-400-normal.1c15ffeb30a43928dcfd.woff2",
+    "static/media/fira-code-latin-ext-400-normal.woff2": "/static/media/fira-code-latin-ext-400-normal.b97c297bd52859a0d424.woff2",
+    "static/media/fira-code-greek-ext-400-normal.woff": "/static/media/fira-code-greek-ext-400-normal.e0547b72c3661e9eceff.woff",
+    "static/media/fira-code-cyrillic-400-normal.woff2": "/static/media/fira-code-cyrillic-400-normal.e1e9e3ed08af5b50de41.woff2",
+    "static/media/fira-code-greek-ext-400-normal.woff2": "/static/media/fira-code-greek-ext-400-normal.4d56ea953041d06820e2.woff2",
     "index.html": "/index.html",
-    "main.cd3be945.css.map": "/static/css/main.cd3be945.css.map",
-    "main.0b6b5d78.js.map": "/static/js/main.0b6b5d78.js.map",
+    "main.868a3d84.css.map": "/static/css/main.868a3d84.css.map",
+    "main.50a8f504.js.map": "/static/js/main.50a8f504.js.map",
     "453.b0aff858.chunk.js.map": "/static/js/453.b0aff858.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd3be945.css",
-    "static/js/main.0b6b5d78.js"
+    "static/css/main.868a3d84.css",
+    "static/js/main.50a8f504.js"
   ]
 }
