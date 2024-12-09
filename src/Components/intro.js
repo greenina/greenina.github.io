@@ -27,7 +27,7 @@ const Intro = () => {
           className={nameClass}
         >
           Prof. Alice Oh
-        </a>. My research interests primarily lie at the intersection of human-computer interaction (HCI), social computing, and natural language processing (NLP). Broadly, I am fascinated by the worldviews that shape how individuals and societies live, interact, and engage with technology—both as mediators and influencers of technological evolution and design.
+        </a>. My research interests primarily lie at the intersection of human-computer interaction (HCI), social computing, and natural language processing (NLP). Broadly, I am fascinated by the worldviews that shape how individuals and societies live, interact with—both as mediators and influencers of technological evolution and design.
       </div>
       <div className="pt-1 pb-2">
         It has been my honor to be advised by{' '}
