@@ -38,7 +38,7 @@ export const Projects = (props) => {
         <div className="w-full flex flex-col">
             <div className="text-primary text-2xl font-extrabold mb-2">Projects</div>
             <div className="text-base text-gray-500">
-                A selection of previous projects that I have led or co-led, for research, coursework, and of course, for fun!
+                A selection of previous projects that I have either led or co-led, for research, coursework, and of course, for fun!
             </div>
             <ConfigProvider theme={customTheme}>
                 <Segmented

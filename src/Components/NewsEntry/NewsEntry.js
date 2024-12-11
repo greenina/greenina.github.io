@@ -1,10 +1,8 @@
-import './NewsEntry.css'
-
-const NewsEntry = ({news}) => {
-  return(
-    <div className='news'>
-      <div className='news-date'>{news.date}</div>
-      <div className='news-content'>{news.content}</div>
+const NewsEntry = ({ news }) => {
+  return (
+    <div className='flex flex-row gap-3 text-normal'>
+      <div className='font-semibold'>{news.date}</div>
+      <div className=''>{news.content}</div>
     </div>
   )
 }

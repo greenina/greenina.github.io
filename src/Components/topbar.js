@@ -46,7 +46,7 @@ export const Topbar = (props) => {
                             window.scrollTo(0, 0);
                         }}>Publications</a>
 
-                    <a className='hover:text-primary cursor-pointer' href="https://docs.google.com/document/d/1_ZGuOP94-1kckQbOkkY-SongxzJVprdv0Ayx1lG5a30/edit?usp=sharing">CV</a>
+                    <a className='hover:text-primary cursor-pointer' href="https://docs.google.com/document/d/1_ZGuOP94-1kckQbOkkY-SongxzJVprdv0Ayx1lG5a30/edit?usp=sharing" target="_blank">CV</a>
                 </div>
             </div>
         </nav>

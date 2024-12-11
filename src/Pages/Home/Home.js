@@ -9,7 +9,7 @@ const Home = () => {
         <img
           src={'images/profile2.jpg'}
           alt="profile"
-          className="w-full max-w-xs rounded-full aspect-square object-cover block mb-5 shadow"
+          className="w-full max-w-xs rounded-full aspect-square object-cover block mb-7 shadow"
         />
 
         <div className="flex justify-between w-full max-w-xs items-center px-3">
@@ -17,35 +17,35 @@ const Home = () => {
             <img
               src="/icons/scholar.svg"
               alt="scholar"
-              className="w-8 h-8 transition-transform duration-200 hover:scale-110"
+              className="w-12 h-12 transition-transform duration-200 hover:scale-110"
             />
           </a>
           <a href="https://twitter.com/_inhwa_song" target="_blank">
             <img
               src="/icons/twitter_x.svg"
               alt="twitter"
-              className="w-8 h-8 transition-transform duration-200 hover:scale-110"
+              className="w-10 h-10 transition-transform duration-200 hover:scale-110"
             />
           </a>
           <a href="https://www.linkedin.com/in/inhwa-song-993b091a7/" target="_blank">
             <img
               src="/icons/linkedin.svg"
               alt="linkedin"
-              className="w-8 h-8 transition-transform duration-200 hover:scale-110"
+              className="w-10 h-10 transition-transform duration-200 hover:scale-110"
             />
           </a>
-          <a href="https://docs.google.com/document/d/1_ZGuOP94-1kckQbOkkY-SongxzJVprdv0Ayx1lG5a30/edit?usp=sharing" target="_blank">
+          {/* <a href="https://docs.google.com/document/d/1_ZGuOP94-1kckQbOkkY-SongxzJVprdv0Ayx1lG5a30/edit?usp=sharing" target="_blank">
             <img
               src="/icons/cv.svg"
               alt="cv"
               className="w-8 h-8 transition-transform duration-200 hover:scale-110"
             />
-          </a>
+          </a> */}
           <a href="https://github.com/greenina" target="_blank">
             <img
               src="/icons/github.svg"
               alt="github"
-              className="w-8 h-8 transition-transform duration-200 hover:scale-110"
+              className="w-10 h-10 transition-transform duration-200 hover:scale-110"
             />
           </a>
         </div>
