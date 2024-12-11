@@ -1,5 +1,55 @@
 [
     {
+        "title": "ExploreSelf: Fostering User-driven Exploration and Reflection on Personal Challenges with Adaptive Guidance by Large Language Models",
+        "year": "2024",
+        "description": "Built ",
+        "image": "/PDF/teaser/exploreself.jpg",
+        "urls": [
+            {
+                "type": "code",
+                "text": "code (monorepo)",
+                "href": "https://github.com/greenina/reauthor-monorepo"
+            },
+            {
+                "type": "pdf",
+                "text": "paper",
+                "href": "https://arxiv.org/abs/2409.09662"
+            }
+        ],
+        "tags": [
+            "human-AI-interaction",
+            "user-autonomy",
+            "research"
+        ],
+        "categories": [
+            "System Building"
+        ],
+        "my_role": "Led the whole development (ideation, iterative design, implementation, and user testing), drafted full-paper and made submission, addressed the peer reviews"
+    },
+    {
+        "title": "Language Features that Differentiate Mental Health Communities on Reddit",
+        "year": "2022",
+        "description": "Built ",
+        "image": "/PDF/teaser/mh-communities.jpg",
+        "urls": [
+            {
+                "type": "pdf",
+                "text": "paper",
+                "href": "https://inhwasong.com/PDF/reddit_mhcommunities_language.pdf"
+            }
+        ],
+        "tags": [
+            "large-scale-data-analysis",
+            "deep-learning",
+            "SHAP"
+        ],
+        "categories": [
+            "Data Analysis",
+            "Deep Learning"
+        ],
+        "my_role": "Implemented bi-directional LSTM model from scratch, applied the SHAP technique for model interpretability"
+    },
+    {
         "title": "ARA: Official KAIST Online Community",
         "year": "2021-2023",
         "description": "Built ",
@@ -32,7 +82,7 @@
         "my_role": "Implemented both frontend and backend (in collaboration with SPARCS members), moderated the online community"
     },
     {
-        "title": "KUIZ: Learnersourcing Dynamic and Modular Multiple Choice Questions",
+        "title": "KUIZ (v1, v2): Learnersourcing Dynamic and Modular Multiple Choice Questions",
         "year": "2021-2022",
         "description": "Built ",
         "image": "/PDF/teaser/kuiz.png",
@@ -62,157 +112,29 @@
         "categories": [
             "System Building"
         ],
-        "my_role": "Led the whole development (from ideation, iterative design, implementation, to real class deployment), designed and moderated the real class deployment, co-authored a workshop paper stemming from the system idea"
+        "my_role": "Led the whole development (from ideation, iterative design, implementation, to deployment), designed and moderated the real class deployment, co-authored a workshop paper stemming from the system idea"
     },
     {
-        "title": "ExploreSelf: Learnersourcing Dynamic and Modular Multiple Choice Questions",
-        "year": "2024",
-        "description": "Built ",
-        "image": "/PDF/teaser/exploreself.jpg",
-        "urls": [
-            {
-                "type": "code",
-                "text": "code (monorepo)",
-                "href": "https://github.com/greenina/reauthor-monorepo"
-            },
-            {
-                "type": "pdf",
-                "text": "full paper",
-                "href": "https://arxiv.org/abs/2409.09662"
-            }
-        ],
-        "tags": [
-            "human-AI-interaction",
-            "research"
-        ],
-        "categories": [
-            "System Building"
-        ],
-        "my_role": "Led the whole development (ideation, iterative design, implementation, and user testing), drafted paper and made submission, addressed the reviews"
-    },
-    {
-        "title": "Uplife: Phone Usage Pattern supporting Goal Setting for Behavior Change",
-        "year": "2021",
-        "description": "Built ",
-        "image": "/PDF/teaser/uplife.jpg",
-        "urls": [
-            {
-                "type": "code",
-                "text": "code",
-                "href": "https://github.com/CheddarChoi/uplife"
-            },
-            {
-                "type": "video",
-                "text": "video",
-                "href": "https://www.youtube.com/watch?v=f6FALc9kcOk&t=2s"
-            }
-        ],
-        "tags": [
-            "data-visualization",
-            "course-project"
-        ],
-        "categories": [
-            "System Building",
-            "Data Analysis"
-        ],
-        "my_role": "Equally led the technical implementation, data analysis, and design (in a team of 3)"
-    },
-    {
-        "title": "Altelper: VScode Extension with Transformer based Context Aware Image Captioning",
+        "title": "Typing Cure: Experiences with LLM Chatbots for Mental Health Support",
         "year": "2022",
         "description": "Built ",
-        "image": "/PDF/teaser/althelper.jpg",
-        "urls": [
-            {
-                "type": "code",
-                "text": "code",
-                "href": "https://github.com/greenina/Altelper"
-            },
-            {
-                "type": "slide",
-                "text": "slide",
-                "href": "https://docs.google.com/presentation/d/1HtVEOajvkE9VovNApkW5Hnh0YG1iYpZJ1O1Np4nrkrg/edit?usp=sharing"
-            }
-        ],
-        "tags": [
-            "fine-tune-language-model",
-            "web-accessibility"
-        ],
-        "categories": [
-            "Deep Learning",
-            "System Building"
-        ],
-        "my_role": "Led the implementation of vscode-extention, co-led fine-tuning image image captioning model"
-    },
-    {
-        "title": "Identify Language Features that Differentiate Mental Health Communities on Reddit",
-        "year": "2022",
-        "description": "Built ",
-        "image": "/PDF/teaser/mh-communities.jpg",
+        "image": "/PDF/teaser/typingcure.png",
         "urls": [
             {
                 "type": "pdf",
-                "text": "full paper",
-                "href": "https://inhwasong.com/PDF/reddit_mhcommunities_language.pdf"
+                "text": "paper",
+                "href": "https://arxiv.org/abs/2401.14362"
             }
         ],
         "tags": [
-            "Large-scale-data-analysis",
-            "deep-learning"
+            "mental-health",
+            "research",
+            "human-AI-interaction"
         ],
         "categories": [
-            "Data Analysis",
-            "Deep Learning"
+            "Qualitative Method"
         ],
-        "my_role": "Implemented bi-directional LSTM model from scratch, applied the SHAP technique for model interpretability"
-    },
-    {
-        "title": "CubeFit: Minimizing Cuboids and Maximizing Coverage in 3D Shape via MCTS",
-        "year": "2022",
-        "description": "Built ",
-        "image": "/PDF/teaser/cubefit.jpg",
-        "urls": [
-            {
-                "type": "link",
-                "text": "slides",
-                "href": "/PDF/cubefit-slides.pdf"
-            },
-            {
-                "type": "pdf",
-                "text": "full paper",
-                "href": "/PDF/cubefit-paper.pdf"
-            }
-        ],
-        "tags": [
-            "deep-reinforcement-learning",
-            "3D-shape-segmentation",
-            "monte-carlo-tree-search"
-        ],
-        "categories": [
-            "Deep Learning"
-        ],
-        "my_role": "Equally led the implementation of MCTS algorithm (in a team of 3)"
-    },
-    {
-        "title": "ABANG: Online Community Supporting Memory-Logging of Friends",
-        "year": "2022",
-        "description": "Built ",
-        "image": "/PDF/teaser/abang.jpg",
-        "urls": [
-            {
-                "type": "code",
-                "text": "code",
-                "href": "https://github.com/greenina/CS473-ABANG"
-            }
-        ],
-        "tags": [
-            "social-computing",
-            "course-project"
-        ],
-        "categories": [
-            "System Building"
-        ],
-        "my_role": "Led the technical implementation (in a team of 4)"
+        "my_role": "Conducted semi-structured interviews of 21 participants, recruited participants from every inhabited continent, conducted thematic analysis grounding on psychotherapy literature, drafted full-paper and made submission, addressed the peer reviews"
     },
     {
         "title": "Authoring Personal Algorithm for Daily Score",
@@ -247,26 +169,58 @@
         "my_role": "Invited for a talk at the Open Humans Keating Memorial event, a personal self-tracking project"
     },
     {
-        "title": "Typing Cure: Experiences with LLM Chatbots for Mental Health Support",
+        "title": "Altelper: VScode Extension with Transformer based Context Aware Image Captioning",
         "year": "2022",
         "description": "Built ",
-        "image": "/PDF/teaser/typingcure.png",
+        "image": "/PDF/teaser/althelper.jpg",
         "urls": [
             {
-                "type": "pdf",
-                "text": "full paper",
-                "href": "https://arxiv.org/abs/2401.14362"
+                "type": "code",
+                "text": "code",
+                "href": "https://github.com/greenina/Altelper"
+            },
+            {
+                "type": "slide",
+                "text": "slide",
+                "href": "https://docs.google.com/presentation/d/1HtVEOajvkE9VovNApkW5Hnh0YG1iYpZJ1O1Np4nrkrg/edit?usp=sharing"
             }
         ],
         "tags": [
-            "mental-health",
-            "research",
-            "human-AI-interaction"
+            "fine-tune-language-model",
+            "web-accessibility"
         ],
         "categories": [
-            "Qualitative Method"
+            "Deep Learning",
+            "System Building"
         ],
-        "my_role": "Conducted semi-structured interviews of 21 participants, recruited participants from every inhabited continent, conducted thematic analysis grounding on psychotherapy literature, drafted paper and made submission, addressed the reviews"
+        "my_role": "Led the implementation of vscode-extention, co-led fine-tuning image image captioning model"
+    },
+    {
+        "title": "CubeFit: Minimizing Cuboids and Maximizing Coverage in 3D Shape via MCTS",
+        "year": "2022",
+        "description": "Built ",
+        "image": "/PDF/teaser/cubefit.jpg",
+        "urls": [
+            {
+                "type": "link",
+                "text": "slides",
+                "href": "/PDF/cubefit-slides.pdf"
+            },
+            {
+                "type": "pdf",
+                "text": "paper",
+                "href": "/PDF/cubefit-full-paper.pdf"
+            }
+        ],
+        "tags": [
+            "deep-reinforcement-learning",
+            "3D-shape-segmentation",
+            "monte-carlo-tree-search"
+        ],
+        "categories": [
+            "Deep Learning"
+        ],
+        "my_role": "Equally led the implementation of MCTS algorithm (in a team of 3)"
     },
     {
         "title": "Understanding the God-Saeng Phenomenon",
@@ -276,7 +230,7 @@
         "urls": [
             {
                 "type": "pdf",
-                "text": "full paper",
+                "text": "paper",
                 "href": "https://www.youtube.com/watch?v=M3GGdU9V9cA&t=2140s"
             }
         ],
@@ -288,7 +242,55 @@
         "categories": [
             "Qualitative Method"
         ],
-        "my_role": "Designed and conducted the cultural probe, drafted paper and made submission"
+        "my_role": "Designed and conducted the cultural probe, drafted full-paper and made submission"
+    },
+    {
+        "title": "Uplife: Phone Usage Pattern supporting Goal Setting for Behavior Change",
+        "year": "2021",
+        "description": "Built ",
+        "image": "/PDF/teaser/uplife.jpg",
+        "urls": [
+            {
+                "type": "code",
+                "text": "code",
+                "href": "https://github.com/CheddarChoi/uplife"
+            },
+            {
+                "type": "video",
+                "text": "video",
+                "href": "https://www.youtube.com/watch?v=f6FALc9kcOk&t=2s"
+            }
+        ],
+        "tags": [
+            "data-visualization",
+            "course-project"
+        ],
+        "categories": [
+            "System Building",
+            "Data Analysis"
+        ],
+        "my_role": "Equally led the technical implementation, data analysis, and design (in a team of 3)"
+    },
+    {
+        "title": "ABANG: Online Community Supporting Memory-Logging of Friends",
+        "year": "2022",
+        "description": "Built ",
+        "image": "/PDF/teaser/abang.jpg",
+        "urls": [
+            {
+                "type": "code",
+                "text": "code",
+                "href": "https://github.com/greenina/CS473-ABANG"
+            }
+        ],
+        "tags": [
+            "social-computing",
+            "course-project"
+        ],
+        "categories": [
+            "System Building"
+        ],
+        "my_role": "Led the technical implementation (in a team of 4)"
     },
     {
         "title": "Igreen: Online Community Supporting Users’ Earth Friendly Consumption",

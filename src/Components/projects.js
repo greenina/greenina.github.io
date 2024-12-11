@@ -37,12 +37,14 @@ export const Projects = (props) => {
     return (
         <div className="w-full flex flex-col">
             <div className="text-primary text-2xl font-extrabold mb-2">Projects</div>
-            A selection of previous projects that I have done, for research, coursework, and of course, for fun!
+            <div className="text-base text-gray-500">
+                A selection of previous projects that I have led or co-led, for research, coursework, and of course, for fun!
+            </div>
             <ConfigProvider theme={customTheme}>
                 <Segmented
                     options={['All', 'System Building', 'Deep Learning', 'Data Analysis', 'Qualitative Method']}
                     onChange={handleCategoryChange}
-                    className='my-4 font-normal'
+                    className='my-3 font-normal'
                     size='large'
 
                 />

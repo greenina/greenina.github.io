@@ -58,12 +58,13 @@ const Home = () => {
       </section>
       <section className="flex-[3.5] p-5 text-left">
         <Intro />
-        <section id="publications">
-          <Publications />
-        </section>
         <section id="projects">
           <Projects />
         </section>
+        <section id="publications">
+          <Publications />
+        </section>
+
       </section>
     </div>
   )

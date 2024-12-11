@@ -21,7 +21,7 @@ const PrjBtn = ({ type, href, text }) => {
   return (
     <a
       href={href}
-      className="flex items-center gap-1 py-1 text-black text-sm hover:underline hover:font-semibold hover:text-green-600"
+      className="flex items-center gap-1 py-1 text-black text-sm hover:underline hover:font-semibold hover:text-[#68A5B3]"
       target="_blank"
       rel="noopener noreferrer"
     >
@@ -52,7 +52,7 @@ const ProjectEntry = ({ project }) => {
           />
         </div>
         <div className="flex flex-col w-full">
-          <div className="text-lg font-semibold mb-2">
+          <div className="text-xl font-semibold mb-3">
             {project.title}.  {' '}
           </div>
 
@@ -60,14 +60,14 @@ const ProjectEntry = ({ project }) => {
             {project.description}
           </div> */}
 
-          <div className="text-lg font-light mb-2">
-            <span className="bg-gray-200 rounded-md px-1">Role:</span> {project.my_role}
+          <div className="text-base font-light mb-4">
+            <span className="bg-gray-100 rounded-md px-2 mr-1 font-normal text-primary">Role</span> {project.my_role}
+          </div>
+          <div className="flex flex-row text-lg font-light text-sm mb-3 font-code">
+            {project.tags.map(tag => <PrjTag text={tag} />)}
           </div>
           <div className="flex flex-wrap gap-2 mb-2">
             {project.urls.map(url => <PrjBtn type={url.type} href={url.href} text={url.text} />)}
-          </div>
-          <div className="flex flex-row text-lg font-light text-sm mb-2 font-code">
-            {project.tags.map(tag => <PrjTag text={tag} />)}
           </div>
         </div>
       </div>
