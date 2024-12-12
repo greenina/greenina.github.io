@@ -46,13 +46,14 @@
         "tags": [
             "large-scale-data-analysis",
             "deep-learning",
-            "SHAP"
+            "SHAP",
+            "course-project"
         ],
         "categories": [
             "Data Analysis",
             "Deep Learning"
         ],
-        "my_role": "Implemented bi-directional LSTM model from scratch, applied the SHAP technique for model interpretability"
+        "my_role": "Implemented bi-directional LSTM model from scratch, applied the SHAP technique for model interpretability. Nominated as the 🏆 Best Project Award Finalist out of 56 teams at the Georgia Tech Deep Learning course."
     },
     {
         "title": "ARA: Official KAIST Online Community",
@@ -84,7 +85,7 @@
         "categories": [
             "System Building"
         ],
-        "my_role": "Implemented both frontend and backend (in collaboration with SPARCS members), managed the content moderation"
+        "my_role": "Implemented both frontend and backend (in collaboration with SPARCS members). Managed the content moderation of ARA, with over 400 visitors per day"
     },
     {
         "title": "KUIZ (v1, v2): Learnersourcing Dynamic and Modular Multiple Choice Questions",
@@ -298,7 +299,7 @@
             "System Building",
             "Data Analysis"
         ],
-        "my_role": "Equally led the technical implementation, data analysis, and design (in a team of 2)"
+        "my_role": "Equally led the technical implementation, data analysis, and design (in a team of 2). Received the 🏆 Best Visualization Award (Top 1) from the course instruction team."
     },
     {
         "title": "ABANG: Online Community Supporting Memory-Logging of Friends",
