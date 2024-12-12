@@ -21,7 +21,7 @@ const PublicationEntry = ({ publication }) => {
     <div className="mb-5 flex flex-col border-b border-gray-200">
       <div className="flex flex-col md:flex-row w-full">
         {publication.img && (
-          <div className="w-full md:w-1/3 pr-4">
+          <div className="w-full md:w-1/3 pr-4 mb-3">
             <img
               src={publication.img}
               alt="Publication"
