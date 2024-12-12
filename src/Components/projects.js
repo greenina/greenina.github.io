@@ -42,7 +42,7 @@ export const Projects = (props) => {
             </div>
             <ConfigProvider theme={customTheme}>
                 <Segmented
-                    options={['All', 'System Building', 'Deep Learning', 'Data Analysis', 'Qualitative Method']}
+                    options={['All', 'System Building', 'Deep Learning', 'Data Analysis', 'Qualitative Method', 'Others']}
                     onChange={handleCategoryChange}
                     className='my-3 font-normal'
                     size='large'

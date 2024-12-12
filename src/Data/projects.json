@@ -137,6 +137,27 @@
         "my_role": "Conducted semi-structured interviews of 21 participants, recruited participants from every inhabited continent, conducted thematic analysis grounding on psychotherapy literature, drafted full-paper and made submission, addressed the peer reviews"
     },
     {
+        "title": "PINTOS: Operating Systems and Lab",
+        "year": "2022",
+        "description": "Built ",
+        "image": "/PDF/teaser/virtual-memory.png",
+        "urls": [
+            {
+                "type": "link",
+                "text": "proj-description",
+                "href": "https://casys-kaist.github.io/pintos-kaist/"
+            }
+        ],
+        "tags": [
+            "operating-systems",
+            "course-project"
+        ],
+        "categories": [
+            "Others"
+        ],
+        "my_role": "Implemented kernel threads, running user programs, a file system, and a virtual memory for an operating system framework for the 80x86 architecture, using the QEMU simulator (equally led in a team of 2). "
+    },
+    {
         "title": "Authoring Personal Algorithm for Daily Score",
         "year": "2022",
         "description": "Built ",
@@ -164,7 +185,8 @@
         ],
         "categories": [
             "Data Analysis",
-            "System Building"
+            "System Building",
+            "Others"
         ],
         "my_role": "Invited for a talk at the Open Humans Keating Memorial event, a personal self-tracking project"
     },
@@ -269,7 +291,7 @@
             "System Building",
             "Data Analysis"
         ],
-        "my_role": "Equally led the technical implementation, data analysis, and design (in a team of 3)"
+        "my_role": "Equally led the technical implementation, data analysis, and design (in a team of 2)"
     },
     {
         "title": "ABANG: Online Community Supporting Memory-Logging of Friends",
