@@ -150,12 +150,14 @@
         ],
         "tags": [
             "operating-systems",
-            "course-project"
+            "kernel-threads",
+            "file-system",
+            "virtual-memory"
         ],
         "categories": [
             "Others"
         ],
-        "my_role": "Implemented kernel threads, running user programs, a file system, and a virtual memory for an operating system framework for the 80x86 architecture, using the QEMU simulator (equally led in a team of 2). "
+        "my_role": "Implemented kernel threads, running user programs, a file system, and a virtual memory for an operating system framework for the 80x86 architecture, running on the QEMU simulator (equally led in a team of 2). "
     },
     {
         "title": "Authoring Personal Algorithm for Daily Score",
