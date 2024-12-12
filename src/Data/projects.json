@@ -24,7 +24,7 @@
         "categories": [
             "System Building"
         ],
-        "my_role": "Led the whole development (ideation, iterative design, implementation, and user testing), drafted full-paper and made submission, addressed the peer reviews"
+        "my_role": "Led the whole development (ideation, iterative design, implementation, and user testing), drafted full-paper and made submission, addressed the peer reviews."
     },
     {
         "title": "Language Features that Differentiate Mental Health Communities on Reddit",
@@ -53,7 +53,7 @@
             "Data Analysis",
             "Deep Learning"
         ],
-        "my_role": "Implemented bi-directional LSTM model from scratch, applied the SHAP technique for model interpretability. Nominated as the 🏆 Best Project Award Finalist out of 56 teams at the Georgia Tech Deep Learning course."
+        "my_role": "Implemented bi-directional LSTM model from scratch, applied the SHAP technique for model interpretability. Nominated as the 🏆 Best Project Award Finalist (Top #3) out of 56 teams at the Georgia Tech Deep Learning course."
     },
     {
         "title": "ARA: Official KAIST Online Community",
@@ -73,7 +73,7 @@
             },
             {
                 "type": "website",
-                "text": "website",
+                "text": "live website",
                 "href": "https://ara.kaist.ac.kr/"
             }
         ],
@@ -85,7 +85,7 @@
         "categories": [
             "System Building"
         ],
-        "my_role": "Implemented both frontend and backend (in collaboration with SPARCS members). Managed the content moderation of ARA, with over 400 visitors per day"
+        "my_role": "Implemented both frontend and backend (in collaboration with SPARCS members). Managed the content moderation of ARA, with over 400 visitors per day."
     },
     {
         "title": "KUIZ (v1, v2): Learnersourcing Dynamic and Modular Multiple Choice Questions",
@@ -118,7 +118,7 @@
         "categories": [
             "System Building"
         ],
-        "my_role": "Led the whole development (from ideation, iterative design, implementation, to deployment), designed and moderated the real class deployment (30+ students synchronously used the system during the in-class activity), co-authored a workshop paper stemming from the system idea"
+        "my_role": "Led the whole development (from ideation, iterative design, implementation, to deployment), designed and moderated the real class deployment (30+ students synchronously used the system during the in-class activity), co-authored a workshop paper stemming from the system idea."
     },
     {
         "title": "Typing Cure: Experiences with LLM Chatbots for Mental Health Support",
@@ -140,7 +140,7 @@
         "categories": [
             "Qualitative Method"
         ],
-        "my_role": "Conducted semi-structured interviews of 21 participants, recruited participants from every inhabited continent, conducted thematic analysis grounding on psychotherapy literature, drafted full-paper and made submission, addressed the peer reviews"
+        "my_role": "Conducted semi-structured interviews of 21 participants, recruited participants from every inhabited continent, conducted thematic analysis grounding on psychotherapy literature, drafted full-paper and made submission, addressed the peer reviews."
     },
     {
         "title": "PINTOS: Operating Systems and Lab",
@@ -172,14 +172,14 @@
         "image": "/PDF/teaser/quantified-self.jpg",
         "urls": [
             {
-                "type": "video",
-                "text": "presentation",
-                "href": "https://www.youtube.com/watch?v=M3GGdU9V9cA&t=2140s"
-            },
-            {
                 "type": "website",
                 "text": "wiki",
                 "href": "https://wiki.openhumans.org/wiki/Authoring_Algorithm_for_Daily_Score"
+            },
+            {
+                "type": "video",
+                "text": "presentation",
+                "href": "https://www.youtube.com/watch?v=M3GGdU9V9cA&t=2140s"
             },
             {
                 "type": "link",
@@ -196,7 +196,7 @@
             "System Building",
             "Others"
         ],
-        "my_role": "Invited for a talk at the Open Humans Keating Memorial event, a personal self-tracking project"
+        "my_role": "Invited for a talk at the Open Humans Keating Memorial event, a personal self-tracking project."
     },
     {
         "title": "Altelper: VScode Extension with Transformer based Context Aware Image Captioning",
@@ -223,7 +223,7 @@
             "Deep Learning",
             "System Building"
         ],
-        "my_role": "Led the implementation of vscode-extention, co-led fine-tuning image image captioning model"
+        "my_role": "Led the implementation of vscode-extention, co-led fine-tuning image image captioning model. Received the 🏆 Best Project Award (Top #1) out of 21 teams at KAIST Intro to Deep Learning course."
     },
     {
         "title": "CubeFit: Minimizing Cuboids and Maximizing Coverage in 3D Shape via MCTS",
@@ -250,7 +250,7 @@
         "categories": [
             "Deep Learning"
         ],
-        "my_role": "Equally led the implementation of MCTS algorithm (in a team of 3)"
+        "my_role": "Equally led the implementation of MCTS algorithm (in a team of 3)."
     },
     {
         "title": "Understanding the God-Saeng Phenomenon",
@@ -287,7 +287,7 @@
             },
             {
                 "type": "video",
-                "text": "video",
+                "text": "demo",
                 "href": "https://www.youtube.com/watch?v=f6FALc9kcOk&t=2s"
             }
         ],
@@ -299,28 +299,7 @@
             "System Building",
             "Data Analysis"
         ],
-        "my_role": "Equally led the technical implementation, data analysis, and design (in a team of 2). Received the 🏆 Best Visualization Award (Top 1) from KAIST Data Viz course."
-    },
-    {
-        "title": "ABANG: Online Community Supporting Memory-Logging of Friends",
-        "year": "2022",
-        "description": "Built ",
-        "image": "/PDF/teaser/abang.jpg",
-        "urls": [
-            {
-                "type": "code",
-                "text": "code",
-                "href": "https://github.com/greenina/CS473-ABANG"
-            }
-        ],
-        "tags": [
-            "social-computing",
-            "course-project"
-        ],
-        "categories": [
-            "System Building"
-        ],
-        "my_role": "Led the technical implementation (in a team of 4)"
+        "my_role": "Equally led the technical implementation, data analysis, and design (in a team of 2). Received the 🏆 Best Visualization Award (Top #1) from KAIST Data Viz course."
     },
     {
         "title": "Igreen: Online Community Supporting Users’ Earth Friendly Consumption",
@@ -332,6 +311,16 @@
                 "type": "code",
                 "text": "code",
                 "href": "https://github.com/greenina/twixigreen"
+            },
+            {
+                "type": "video",
+                "text": "slide",
+                "href": "https://docs.google.com/presentation/d/13W4I6oU-hU1pT9e4n9D_Vo-zsNja8U2eaQ0mrz2LNuc/edit#slide=id.gdf1af11276_0_331"
+            },
+            {
+                "type": "link",
+                "text": "award",
+                "href": "https://cs374-spring-2021.netlify.app/gallery"
             }
         ],
         "tags": [
@@ -340,6 +329,42 @@
         "categories": [
             "System Building"
         ],
-        "my_role": "Equally led the development and design (in a team of 4)"
+        "my_role": "Equally led the development and design (in a team of 4, Team TWIX). Received the 🏆 Best Implementation Award out of 25 teams at KAIST Intro to HCI course."
+    },
+    {
+        "title": "ABANG: Online Community Supporting Memory-Logging of Friends",
+        "year": "2022",
+        "description": "Built ",
+        "image": "/PDF/teaser/abang.jpg",
+        "urls": [
+            {
+                "type": "code",
+                "text": "code",
+                "href": "https://github.com/greenina/CS473-ABANG"
+            },
+            {
+                "type": "video",
+                "text": "video",
+                "href": "https://www.youtube.com/watch?v=3zpYoGCK_ik&t=54s"
+            },
+            {
+                "type": "link",
+                "text": "award",
+                "href": "https://cs473-fall-2021.netlify.app/projects/"
+            },
+            {
+                "type": "website",
+                "text": "live website",
+                "href": "https://abang2-3e855.web.app/"
+            }
+        ],
+        "tags": [
+            "social-computing",
+            "course-project"
+        ],
+        "categories": [
+            "System Building"
+        ],
+        "my_role": "Led the technical implementation (in a team of 4). Received the 🏆 Best Demo Award out of 10 teams at KAIST Intro to Social Computing course."
     }
 ]
