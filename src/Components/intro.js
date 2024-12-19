@@ -28,7 +28,7 @@ const Intro = () => {
         >
           Prof. Alice Oh
         </a>. My research interests broadly lie at the intersection of human-computer interaction (HCI), social computing, and natural language processing (NLP).
-        Ultimately, I aim to harness the potential of social and language technologies to empower individuals and communities to expand their worldviews, fostering personal growth and societal harmony.
+        I generally am passionate about embracing the diverse worldviews in our society to harmonically co-exist, both through and within technology.
       </div>
       <div className="pt-1 pb-2">
         It has been my honor to be advised by{' '}
