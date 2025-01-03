@@ -30,7 +30,7 @@ const Intro = () => {
         </a>. My research interests broadly lie at the intersection of human-computer interaction (HCI), social computing, and natural language processing (NLP).
         I generally am passionate about embracing the diverse worldviews in our society to harmonically co-exist, both through and within technology.
       </div>
-      <div className="pt-1 pb-2">
+      <div className="pt-1">
         It has been my honor to be advised by{' '}
         <a
           href="http://munmund.net"
@@ -101,6 +101,9 @@ const Intro = () => {
           Prof. Juho Kim
         </a>
         , who all inspired my love and devotion to research.
+      </div>
+      <div className="pb-2 pt-2">
+        Alongside research, I enjoy running, hiking, playing around with ideas through writing and mind mapping, playing the guitar and piano!
       </div>
     </section>
   );
