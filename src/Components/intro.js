@@ -2,7 +2,7 @@ const Intro = () => {
   const nameClass = "hover:underline hover:decoration-wavy hover:decoration-[#68A5B3] font-normal text-gray-800 font-medium";
 
   return (
-    <section className="text-[18px] leading-[177%] font-light">
+    <section className="text-[18px] leading-[177%] font-light pb-2">
       <div className="pt-4">
         I am an undergraduate and researcher at{' '}
         <span className="inline-flex items-center">
@@ -102,9 +102,9 @@ const Intro = () => {
         </a>
         , who all inspired my love and devotion to research.
       </div>
-      <div className="pb-2 pt-2">
+      {/* <div className="pb-2 pt-2">
         Alongside research, I enjoy running, hiking, playing around with ideas through writing and mind mapping, playing the guitar and piano!
-      </div>
+      </div> */}
     </section>
   );
 };
