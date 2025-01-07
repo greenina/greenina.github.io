@@ -1,3 +1,4 @@
+import { Button, Tooltip } from "antd";
 const Intro = () => {
   const nameClass = "hover:underline hover:decoration-wavy hover:decoration-[#68A5B3] font-normal text-gray-800 font-medium";
 
@@ -27,7 +28,7 @@ const Intro = () => {
           className={nameClass}
         >
           Prof. Alice Oh
-        </a>. My research interests broadly lie at the intersection of human-computer interaction (HCI), social computing, and natural language processing (NLP).
+        </a>. My research interest lies at the intersection of human-computer interaction (HCI), social computing, and natural language processing (NLP).
         I generally am passionate about embracing the diverse worldviews in our society to harmonically co-exist, both through and within technology.
       </div>
       <div className="pt-1">
@@ -102,8 +103,135 @@ const Intro = () => {
         </a>
         , who all inspired my love and devotion to research.
       </div>
+      <div className="pb-2 pt-2">Outside research, I love outdoor activities (especially running and hiking), playing music (piano and classic guitar), reading (usually social commentary), and writing blog posts (from low to high effort :)). </div>
       {/* <div className="pb-2 pt-2">
-        Alongside research, I enjoy running, hiking, playing around with ideas through writing and mind mapping, playing the guitar and piano!
+        <span>
+          Outside research, I enjoy outside activities (
+          <Tooltip
+            title={
+              <video
+                src="/images/hobbies/marathon.mp4"
+                autoPlay
+                loop
+                muted
+                style={{ width: '200px', borderRadius: '8px' }}
+              >
+                Your browser does not support the video tag.
+              </video>
+            }
+            color="#FFF1BF"
+          >
+            <span
+              className="cursor-pointer px-2 py-1 text-primary font-medium rounded-md transition-transform transform hover:scale-105 hover:bg-secondary"
+            >
+              running
+            </span>
+          </Tooltip> &
+          <Tooltip
+            title={
+              <img
+                src="/images/hobbies/hiking.jpg"
+                style={{ width: '200px', borderRadius: '8px' }}
+              />
+            }
+            color="#FFF1BF"
+          >
+            <span
+              className="cursor-pointer px-2 py-1 text-primary font-medium rounded-md transition-transform transform hover:scale-105 hover:bg-secondary"
+            >
+              hiking
+            </span>
+          </Tooltip>)
+          and playing music (<Tooltip
+            title={
+              <iframe
+                id="youtube-video"
+                src="https://www.youtube.com/embed/eGfeQerBUD8?start=344&end=365&autoplay=1&mute=1&enablejsapi=1"
+                frameBorder="0"
+                allow="autoplay; encrypted-media"
+                allowFullScreen
+                style={{ width: '400px', height: '300px', borderRadius: '8px' }}
+                onLoad={() => {
+                  let count = 0;
+                  const player = document.getElementById('youtube-video');
+                  const onEndHandler = () => {
+                    count += 1;
+                    if (count >= 10) {
+                      player.src = "";
+                    } else {
+                      player.src = "https://www.youtube.com/embed/eGfeQerBUD8?start=344&end=365&autoplay=1";
+                    }
+                  };
+
+                  player.addEventListener("ended", onEndHandler);
+                }}
+                onVisibleChange={(visible) => {
+                  const video = document.getElementById('youtube-video');
+                  if (video) {
+                    if (visible) {
+                      video.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
+                    } else {
+                      video.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
+                    }
+                  }
+                }}
+              >
+                <script src="https://www.youtube.com/iframe_api"></script>
+              </iframe>
+            }
+            color="#FFF1BF"
+          >
+            <span
+              className="cursor-pointer px-2 py-1 text-primary font-medium rounded-md transition-transform transform hover:scale-105 hover:bg-secondary"
+            >
+              piano
+            </span>
+          </Tooltip> & <Tooltip
+            title={
+              <iframe
+                id="youtube-video"
+                src="https://www.youtube.com/embed/wN94liyEkkA?start=40&end=60&autoplay=1&mute=1&enablejsapi=1"
+                frameBorder="0"
+                allow="autoplay; encrypted-media"
+                allowFullScreen
+                style={{ width: '400px', height: '300px', borderRadius: '8px' }}
+                onLoad={() => {
+                  let count = 0;
+                  const player = document.getElementById('youtube-video');
+                  const onEndHandler = () => {
+                    count += 1;
+                    if (count >= 10) {
+                      player.src = "";
+                    } else {
+                      player.src = "https://www.youtube.com/embed/wN94liyEkkA?start=40&end=60&autoplay=1";
+                    }
+                  };
+
+                  player.addEventListener("ended", onEndHandler);
+                }}
+                onVisibleChange={(visible) => {
+                  const video = document.getElementById('youtube-video');
+                  if (video) {
+                    if (visible) {
+                      video.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
+                    } else {
+                      video.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
+                    }
+                  }
+                }}
+              >
+                <script src="https://www.youtube.com/iframe_api"></script>
+              </iframe>
+            }
+            color="#FFF1BF"
+          >
+            <span
+              className="cursor-pointer px-2 py-1 text-primary font-medium rounded-md transition-transform transform hover:scale-105 hover:bg-secondary"
+            >
+              classic guitar
+            </span>
+          </Tooltip>)!
+        </span>
       </div> */}
     </section>
   );
