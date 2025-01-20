@@ -7,8 +7,8 @@
         "urls": [
             {
                 "type": "code",
-                "text": "code (to appear)",
-                "href": ""
+                "text": "code",
+                "href": "https://github.com/naver-ai/exploreself-monorepo"
             },
             {
                 "type": "pdf",
@@ -17,9 +17,9 @@
             }
         ],
         "tags": [
+            "CHI2025",
             "human-AI-interaction",
-            "user-autonomy",
-            "research"
+            "user-autonomy"
         ],
         "categories": [
             "System Building"

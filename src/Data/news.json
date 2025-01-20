@@ -1,14 +1,30 @@
 [
   {
+    "date": "2025.01",
+    "content": "📄 My NAVER internship paper is accepted to CHI 2025!"
+  },
+  {
     "date": "2024.05",
-    "content":"🌴 Attending CHI'24 in-person! Let's chat :D"
+    "content": "🌴 Attending CHI 2024 in-person! Let's chat :D"
   },
   {
     "date": "2024.03",
-    "content":"👩🏻‍💻 Excited to start my Internship @Naver AI Lab!"
+    "content": "🎵 Excited to start my research internship @NAVER AI Lab!"
+  },
+  {
+    "date": "2023.12",
+    "content": "✈️ Attending NeurIPS 2023 in person! 📍 New Orleans"
+  },
+  {
+    "date": "2023.11",
+    "content": "✈️ Attending UIST 2023 in person! 📍 San Fransisco"
   },
   {
     "date": "2023.10",
-    "content":"👩🏻‍💻 Serving as Student Volunteer for CSCW'23!"
+    "content": "👩🏻‍💻 Serving as Student Volunteer for CSCW'23! 📍 Minneapolis"
+  },
+  {
+    "date": "2023.8",
+    "content": "🐝 Starting my exchange semester at Georgia Tech. Go Jackets!"
   }
 ]
