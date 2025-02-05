@@ -257,13 +257,7 @@
         "year": "2022",
         "description": "Built ",
         "image": "/PDF/teaser/god-saeng.png",
-        "urls": [
-            {
-                "type": "pdf",
-                "text": "paper",
-                "href": "https://www.youtube.com/watch?v=M3GGdU9V9cA&t=2140s"
-            }
-        ],
+        "urls": [],
         "tags": [
             "personal-informatics",
             "research",
