@@ -21,14 +21,7 @@ const Intro = () => {
         >
           KAIST School of Computing
         </a>
-        , advised by{' '}
-        <a
-          href="https://aliceoh9.github.io"
-          target="_blank"
-          className={nameClass}
-        >
-          Prof. Alice Oh
-        </a>. My research interest lies at the intersection of human-computer interaction (HCI), social computing, and natural language processing (NLP).
+        . My research interest lies at the intersection of human-computer interaction (HCI), social computing, and natural language processing (NLP).
         I generally am passionate about embracing the diverse worldviews in our society to harmonically co-exist, both through and within technology.
       </div>
       <div className="pt-1">
