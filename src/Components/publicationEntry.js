@@ -66,7 +66,7 @@ const PublicationEntry = ({ publication }) => {
           </div> */}
           <span className="flex flex-wrap gap-2 mb-3 items-center">
             {publication.state && <span>{publication.state}</span>}
-            {publication.url && <PubBtn href={publication.url} text="DOI" />}
+            {publication.url && <PubBtn href={publication.url} text="Website" />}
             {publication.pdf && <PubBtn href={publication.pdf} text="PDF" />}
             {publication.arxiv && <PubBtn href={publication.arxiv} text="Arxiv" />}
             {publication.openreview && (
