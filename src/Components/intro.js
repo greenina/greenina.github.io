@@ -5,7 +5,14 @@ const Intro = () => {
   return (
     <section className="text-[18px] leading-[177%] font-light pb-2">
       <div className="pt-4">
-        I am an undergraduate and researcher at{' '}
+        I am an incoming PhD student in the Computer Science Department at 🐯 <a
+          href="https://cs.princeton.edu"
+          className="text-[#E77500] font-medium hover:font-bold"
+          target="_blank"
+        >
+          Princeton
+        </a>
+        . I am finishing my undergraduate at{' '}
         <span className="inline-flex items-center">
           <img
             src={'images/nupzuk.png'}
@@ -21,7 +28,7 @@ const Intro = () => {
         >
           KAIST School of Computing
         </a>
-        . My research interest lies at the intersection of human-computer interaction (HCI), social computing, and natural language processing (NLP).
+        . My research interest lies at the intersection of human-computer interaction (HCI), social computing, and computational social science.
         I generally am passionate about embracing the diverse worldviews in our society to harmonically co-exist, both through and within technology.
       </div>
       <div className="pt-1">
