@@ -80,11 +80,11 @@
         "img": "/PDF/teaser/multicultural_survey.jpg",
         "authors": [
             {
-                "name": "Siddhesh Milind Pawar",
+                "name": "Siddhesh Milind Pawar*",
                 "url": ""
             },
             {
-                "name": "Junyeong Park",
+                "name": "Junyeong Park*",
                 "url": ""
             },
             {
@@ -125,7 +125,7 @@
         ],
         "year": 2024,
         "booktitle": "",
-        "state": "Under Review\n (Full paper)",
+        "state": "Journal of Computational Linguistics",
         "awards": [],
         "url": "",
         "pdf": "PDF/multicultural_survey.pdf",
