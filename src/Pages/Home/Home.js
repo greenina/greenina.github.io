@@ -49,7 +49,9 @@ const Home = () => {
             />
           </a>
         </div>
-
+        <div className='mt-4'>
+          inhwa.song@kaist.ac.kr
+        </div>
 
         <div className="mt-4 w-full">
           <div className="text-primary text-2xl font-black mb-2 text-left">News</div>
