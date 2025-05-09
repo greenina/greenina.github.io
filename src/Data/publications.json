@@ -36,10 +36,10 @@
         "state": "ACM CHI 2025 (Full paper)",
         "awards": [],
         "doi": "https://doi.org/10.1145/3706598.3713883",
-        "url": "",
+        "url": "https://naver-ai.github.io/exploreself/",
         "pdf": "PDF/exploreself.pdf",
-        "video": "",
-        "arxiv": "https://arxiv.org/abs/2409.09662",
+        "video": "https://www.youtube.com/watch?v=0kggqF6u9gU&t",
+        "code": "https://github.com/naver-ai/exploreself-monorepo",
         "abstract": "Expressing stressful experiences in words is proven to improve mental and physical health, but individuals often disengage with writing interventions as they struggle to organize their thoughts and emotions. Reflective prompts have been used to provide direction, and large language models (LLMs) have demonstrated the potential to provide tailored guidance. Current systems often limit users' flexibility to direct their reflections. We thus present ExploreSelf, an LLM-driven application designed to empower users to control their reflective journey. ExploreSelf allows users to receive adaptive support through dynamically generated questions. Through an exploratory study with 19 participants, we examine how participants explore and reflect on personal challenges using ExploreSelf. Our findings demonstrate that participants valued the balance between guided support and freedom to control their reflective journey, leading to deeper engagement and insight. Building on our findings, we discuss implications for designing LLM-driven tools that promote user empowerment through effective reflective practices."
     },
     {

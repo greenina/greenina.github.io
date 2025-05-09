@@ -68,8 +68,10 @@ const PublicationEntry = ({ publication }) => {
             {publication.state && <span>{publication.state}</span>}
             {publication.url && <PubBtn href={publication.url} text="Website" />}
             {publication.pdf && <PubBtn href={publication.pdf} text="PDF" />}
-            {publication.arxiv && <PubBtn href={publication.arxiv} text="Arxiv" />}
             {publication.doi && <PubBtn href={publication.doi} text="DOI" />}
+            {publication.doi && <PubBtn href={publication.code} text="GitHub" />}
+            {publication.doi && <PubBtn href={publication.video} text="Video" />}
+            {publication.arxiv && <PubBtn href={publication.arxiv} text="Arxiv" />}
             {publication.openreview && (
               <PubBtn href={publication.openreview} text="OpenReview" />
             )}
