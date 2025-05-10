@@ -20,7 +20,7 @@ const Home = () => {
               className="w-12 h-12 transition-transform duration-200 hover:scale-110"
             />
           </a>
-          <a href="https://twitter.com/inhwa_song_" target="_blank">
+          <a href="https://twitter.com/inhwa_april" target="_blank">
             <img
               src="/icons/twitter_x.svg"
               alt="twitter"
