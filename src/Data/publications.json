@@ -128,10 +128,10 @@
         "booktitle": "",
         "state": "Journal of Computational Linguistics",
         "awards": [],
+        "doi": "https://doi.org/10.1162/COLI.a.14",
         "url": "",
         "pdf": "PDF/multicultural_survey.pdf",
         "video": "",
-        "openreview": "https://openreview.net/forum?id=3gg6GHhuvi",
         "arxiv": "",
         "abstract": "Large-scale deployment of large language models (LLMs) in various applications, such as chatbots and virtual assistants, requires LLMs to be culturally sensitive to the user to ensure inclusivity. Culture has been widely studied in psychology and anthropology, and there has been a recent surge in research on making LLMs more culturally inclusive in LLMs that goes beyond multilinguality and builds on findings from psychology and anthropology. In this paper, we survey efforts towards incorporating cultural awareness into text-based and multimodal LLMs. We start by defining cultural awareness in LLMs, taking the definitions of culture from anthropology and psychology as a point of departure. We then examine methodologies adopted for creating cross-cultural datasets, strategies for cultural inclusion in downstream tasks, and methodologies that have been used for benchmarking cultural awareness in LLMs. Further, we discuss the ethical implications of cultural alignment, the role of Human-Computer Interaction in driving cultural inclusion in LLMs, and the role of cultural alignment in driving social science research. We finally provide pointers to future research based on our findings about gaps in the literature."
     },
