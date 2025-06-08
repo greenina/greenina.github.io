@@ -31,18 +31,7 @@
         "year": "2022",
         "description": "Built ",
         "image": "/PDF/teaser/mh-communities.jpg",
-        "urls": [
-            {
-                "type": "pdf",
-                "text": "paper",
-                "href": "/PDF/reddit_mhcommunities_language.pdf"
-            },
-            {
-                "type": "pdf",
-                "text": "poster",
-                "href": "/PDF/mh-communities-poster.pdf"
-            }
-        ],
+        "urls": [],
         "tags": [
             "large-scale-data-analysis",
             "deep-learning",
