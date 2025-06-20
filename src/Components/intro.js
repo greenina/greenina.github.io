@@ -3,7 +3,7 @@ const Intro = () => {
   const nameClass = "hover:underline hover:decoration-wavy hover:decoration-[#68A5B3] font-normal text-gray-800 font-medium";
 
   return (
-    <section className="text-[18px] leading-[177%] font-light pb-2">
+    <section className="text-[18px] leading-[177%] font-light pb-2 text-justify">
       <div className="pt-4">
         I am an incoming PhD student in the Computer Science Department at 🐯 <a
           href="https://cs.princeton.edu"
@@ -11,8 +11,10 @@ const Intro = () => {
           target="_blank"
         >
           Princeton
-        </a>
-        . I am finishing my undergraduate at{' '}
+        </a> where I'll be working with <a href="https://manoelhortaribeiro.github.io/"
+          target="_blank"
+          className={nameClass}>Prof. Manoel Horta Ribeiro</a>
+        ! I am finishing my undergraduate at{' '}
         <span className="inline-flex items-center">
           <img
             src={'images/nupzuk.png'}
@@ -29,7 +31,6 @@ const Intro = () => {
           KAIST School of Computing
         </a>
         . My research interest lies at the intersection of human-computer interaction (HCI), social computing, and computational social science.
-        I generally am passionate about embracing the diverse worldviews in our society to harmonically co-exist, both through and within technology.
       </div>
       <div className="pt-1">
         It has been my honor to be advised by{' '}
