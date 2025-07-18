@@ -14,7 +14,7 @@ const Intro = () => {
         </a> where I'll be working with <a href="https://manoelhortaribeiro.github.io/"
           target="_blank"
           className={nameClass}>Prof. Manoel Horta Ribeiro</a>
-        ! I am finishing my undergraduate at{' '}
+        ! I finished my undergraduate at{' '}
         <span className="inline-flex items-center">
           <img
             src={'images/nupzuk.png'}
