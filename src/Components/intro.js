@@ -14,7 +14,7 @@ const Intro = () => {
           Princeton
         </a>, working with <a href="https://manoelhortaribeiro.github.io/"
           target="_blank"
-          className={nameClass}>Manoel Horta Ribeiro</a>. I am also affiliated with the two incredible communities in Princeton: <a>Center for Information Technology Policy (CITP)</a> and <a href="https://hci.princeton.edu/">Princeton HCI Group</a>.
+          className={nameClass}>Manoel Horta Ribeiro</a>. I am also affiliated with the two incredible communities in Princeton: <a href="https://citp.princeton.edu/">Center for Information Technology Policy (CITP)</a> and <a href="https://hci.princeton.edu/">Princeton HCI Group</a>.
          My research interest lies at the intersection of human-computer interaction (HCI), social computing, and computational social science.
       </div>
       <div className="pt-1">
@@ -66,6 +66,32 @@ const Intro = () => {
   >
     NAVER AI Lab
   </a>.
+  Through these experiences, I was honored to be advised by <a
+          href="http://munmund.net"
+          target="_blank"
+          className={nameClass}
+        >
+          Munmun De Choudhury
+        </a>{' '}, <a
+          href="https://galaxytourist.notion.site/galaxytourist/Hwajung-Hong-cc10b0291bbe4ca38dbf4882cd687423"
+          target="_blank"
+          className={nameClass}
+        >
+          Hwajung Hong
+        </a>, <a
+          href="http://younghokim.net"
+          target="_blank"
+          className={nameClass}
+        >
+          Young-Ho Kim
+        </a>, and <a
+          href="http://juhokim.com"
+          target="_blank"
+          className={nameClass}
+        >
+          Juho Kim
+        </a>.
+
 </div>
 
       {/* <div className="pt-1">
@@ -160,7 +186,7 @@ const Intro = () => {
         </a>
         , who all inspired my love and devotion to research.
       </div> */}
-      <div className="pb-2 pt-2">Outside research, I love outdoor activities (especially running and hiking), playing music (piano and classic guitar), reading (usually social commentary), and writing blog posts (from low to high effort :)). </div>
+      <div className="pb-2 pt-2">Outside research, I love outdoor activities (especially running and hiking), playing music (piano and classic guitar), reading (usually social commentary), and writing stuffs (from low to high effort :)). </div>
       {/* <div className="pb-2 pt-2">
         <span>
           Outside research, I enjoy outside activities (
