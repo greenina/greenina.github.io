@@ -5,16 +5,20 @@ const Intro = () => {
   return (
     <section className="text-[18px] leading-[177%] font-light pb-2 text-justify">
       <div className="pt-4">
-        I am an incoming PhD student in the Computer Science Department at 🐯 <a
+        Hello! Thanks for visisting :)
+        I am a 1st year PhD student in the Computer Science Department at 🐯 <a
           href="https://cs.princeton.edu"
           className="text-[#E77500] font-medium hover:font-bold"
           target="_blank"
         >
           Princeton
-        </a> where I'll be working with <a href="https://manoelhortaribeiro.github.io/"
+        </a>, working with <a href="https://manoelhortaribeiro.github.io/"
           target="_blank"
-          className={nameClass}>Prof. Manoel Horta Ribeiro</a>
-        ! I finished my undergraduate at{' '}
+          className={nameClass}>Manoel Horta Ribeiro</a>. I am also affiliated with the two incredible communities in Princeton: <a>Center for Information Technology Policy (CITP)</a> and <a href="https://hci.princeton.edu/">Princeton HCI Group</a>.
+         My research interest lies at the intersection of human-computer interaction (HCI), social computing, and computational social science.
+      </div>
+      {/* <div className="pt-1">
+      I was born/raised in Daejeon, South Korea 🇰🇷, and finished my undergraduate at{' '}
         <span className="inline-flex items-center">
           <img
             src={'images/nupzuk.png'}
@@ -28,18 +32,17 @@ const Intro = () => {
           className="text-[rgba(0,65,145,1)] font-medium hover:font-bold"
           target="_blank"
         >
-          KAIST School of Computing
-        </a>
-        . My research interest lies at the intersection of human-computer interaction (HCI), social computing, and computational social science.
-      </div>
-      <div className="pt-1">
-        It has been my honor to be advised by{' '}
+          KAIST 
+        </a> School of Computing.
+        During my undergraduate, I 
+        where I was grateful to be advised by Hwajung Hong, Juho Kim, and Alice Oh.
+        I was advised by{' '}
         <a
           href="http://munmund.net"
           target="_blank"
           className={nameClass}
         >
-          Prof. Munmun De Choudhury
+          Munmun De Choudhury
         </a>{' '}
         while I was at{' '}
         <span className="inline-flex items-center">
@@ -78,14 +81,14 @@ const Intro = () => {
           target="_blank"
           className={nameClass}
         >
-          Dr. Young-Ho Kim
+          Young-Ho Kim
         </a>. I was also incredibly lucky to be advised by{' '}
         <a
           href="https://galaxytourist.notion.site/galaxytourist/Hwajung-Hong-cc10b0291bbe4ca38dbf4882cd687423"
           target="_blank"
           className={nameClass}
         >
-          Prof. Hwajung Hong
+          Hwajung Hong
         </a>
         ,{' '}
         <a
@@ -93,18 +96,18 @@ const Intro = () => {
           target="_blank"
           className={nameClass}
         >
-          Prof. Janghee Cho
+          Janghee Cho
         </a>, and{' '}
         <a
           href="http://juhokim.com"
           target="_blank"
           className={nameClass}
         >
-          Prof. Juho Kim
+          Juho Kim
         </a>
         , who all inspired my love and devotion to research.
-      </div>
-      <div className="pb-2 pt-2">Outside research, I love outdoor activities (especially running and hiking), playing music (piano and classic guitar), reading (usually social commentary), and writing blog posts (from low to high effort :)). </div>
+      </div> */}
+      {/* <div className="pb-2 pt-2">Outside research, I love outdoor activities (especially running and hiking), playing music (piano and classic guitar), reading (usually social commentary), and writing blog posts (from low to high effort :)). </div> */}
       {/* <div className="pb-2 pt-2">
         <span>
           Outside research, I enjoy outside activities (
