@@ -17,6 +17,57 @@ const Intro = () => {
           className={nameClass}>Manoel Horta Ribeiro</a>. I am also affiliated with the two incredible communities in Princeton: <a>Center for Information Technology Policy (CITP)</a> and <a href="https://hci.princeton.edu/">Princeton HCI Group</a>.
          My research interest lies at the intersection of human-computer interaction (HCI), social computing, and computational social science.
       </div>
+      <div className="pt-1">
+  I was born and raised in Daejeon, South Korea 🇰🇷, and completed my undergraduate at{' '}
+  <span className="inline-flex items-center">
+    <img
+      src={'images/nupzuk.png'}
+      className="h-5 align-middle"
+      style={{ verticalAlign: 'text-bottom' }}
+      alt="KAIST"
+    />{' '}
+  </span>
+  <a
+    href="https://cs.kaist.ac.kr"
+    className="text-[rgba(0,65,145,1)] font-medium hover:font-bold"
+    target="_blank"
+  >
+    KAIST
+  </a>{' '}
+  School of Computing.
+  I also studied as an exchange student at{' '}
+  <span className="inline-flex items-center">
+    <img
+      src={'images/gtbee.svg'}
+      className="h-5 align-middle"
+      alt="Georgia Tech"
+    />{' '}
+  </span>
+  <a
+    href="https://www.cc.gatech.edu/"
+    className="text-[rgb(180,164,106)] font-medium hover:font-bold"
+    target="_blank"
+  >
+    Georgia Tech
+  </a>{' '}
+  and worked as a research intern at{' '}
+  <span className="inline-flex items-center">
+    <img
+      src={'images/naver.png'}
+      className="h-5 align-middle"
+      style={{ verticalAlign: 'text-bottom' }}
+      alt="NAVER"
+    />{' '}
+  </span>
+  <a
+    href="https://naver-career.gitbook.io/en/teams/clova-cic/ai-lab"
+    className="text-[#2DB400] font-medium hover:font-bold"
+    target="_blank"
+  >
+    NAVER AI Lab
+  </a>.
+</div>
+
       {/* <div className="pt-1">
       I was born/raised in Daejeon, South Korea 🇰🇷, and finished my undergraduate at{' '}
         <span className="inline-flex items-center">
@@ -34,9 +85,8 @@ const Intro = () => {
         >
           KAIST 
         </a> School of Computing.
-        During my undergraduate, I 
-        where I was grateful to be advised by Hwajung Hong, Juho Kim, and Alice Oh.
-        I was advised by{' '}
+        During my undergraduate, I was grateful to be advised by Hwajung Hong, Juho Kim, and Alice Oh.
+        I was honored to be advised by{' '}
         <a
           href="http://munmund.net"
           target="_blank"
@@ -59,7 +109,7 @@ const Intro = () => {
         >
           Georgia Tech
         </a>{' '}
-        as an exchange student. At{' '}
+        as an exchange student. I was also a research intern at{' '}
         <span className="inline-flex items-center">
           <img
             src={'images/naver.png'}
@@ -82,7 +132,10 @@ const Intro = () => {
           className={nameClass}
         >
           Young-Ho Kim
-        </a>. I was also incredibly lucky to be advised by{' '}
+        </a>,
+        who who all inspired my love and devotion to research.
+        </div> */}
+        {/* I was also incredibly lucky to be advised by{' '}
         <a
           href="https://galaxytourist.notion.site/galaxytourist/Hwajung-Hong-cc10b0291bbe4ca38dbf4882cd687423"
           target="_blank"
@@ -107,7 +160,7 @@ const Intro = () => {
         </a>
         , who all inspired my love and devotion to research.
       </div> */}
-      {/* <div className="pb-2 pt-2">Outside research, I love outdoor activities (especially running and hiking), playing music (piano and classic guitar), reading (usually social commentary), and writing blog posts (from low to high effort :)). </div> */}
+      <div className="pb-2 pt-2">Outside research, I love outdoor activities (especially running and hiking), playing music (piano and classic guitar), reading (usually social commentary), and writing blog posts (from low to high effort :)). </div>
       {/* <div className="pb-2 pt-2">
         <span>
           Outside research, I enjoy outside activities (
