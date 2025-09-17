@@ -7,7 +7,7 @@ const Home = () => {
     <div className='flex flex-col md:flex-row mx-[10%] mt-3'>
       <section className="flex-1 p-5 flex flex-col items-center">
         <img
-          src={'images/profile_blue.jpg'}
+          src={'images/office_profile.jpg'}
           alt="profile"
           className="w-full max-w-xs rounded-full aspect-square object-cover block mb-7 shadow"
         />
@@ -20,7 +20,7 @@ const Home = () => {
               className="w-12 h-12 transition-transform duration-200 hover:scale-110"
             />
           </a>
-          <a href="https://twitter.com/inhwa_april" target="_blank">
+          <a href="https://twitter.com/song_inhwa_" target="_blank">
             <img
               src="/icons/twitter_x.svg"
               alt="twitter"
