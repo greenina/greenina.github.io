@@ -14,7 +14,7 @@ const Intro = () => {
           Princeton
         </a>, working with <a href="https://manoelhortaribeiro.github.io/"
           target="_blank"
-          className={nameClass}>Manoel Horta Ribeiro</a>. I am also affiliated with the two incredible communities in Princeton: <a href="https://citp.princeton.edu/">Center for Information Technology Policy (CITP)</a> and <a href="https://hci.princeton.edu/">Princeton HCI Group</a>.
+          className={nameClass}>Manoel Horta Ribeiro</a>. I am also affiliated with the two incredible communities in Princeton: <a href="https://citp.princeton.edu/" target="_blank">Center for Information Technology Policy (CITP)</a> and <a href="https://hci.princeton.edu/" target="_blank">Princeton HCI Group</a>.
          My research interest lies at the intersection of human-computer interaction (HCI), social computing, and computational social science.
       </div>
       <div className="pt-1">
