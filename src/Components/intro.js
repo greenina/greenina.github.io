@@ -5,7 +5,7 @@ const Intro = () => {
   return (
     <section className="text-[18px] leading-[177%] font-light pb-2 text-justify">
       <div className="pt-4">
-        Hello! Thanks for visisting :)
+        Hello! Thanks for visiting :)
         I am a 1st year PhD student in the Computer Science Department at 🐯 <a
           href="https://cs.princeton.edu"
           className="text-[#E77500] font-medium hover:font-bold"
