@@ -9,15 +9,15 @@ const Intro = () => {
     <section className="text-[18px] leading-[177%] font-light pb-2 text-justify">
       <div className="pt-4">
         Hello! Thanks for visiting :)
-        I am a 1st year PhD student in 🐯<a
+        I am a 1st year PhD student in Computer Science at 🐯<a
           href="https://cs.princeton.edu"
           className="text-[#E77500] font-medium hover:font-bold"
           target="_blank"
         >
-          Princeton
-        </a> Computer Science, working with <a href="https://manoelhortaribeiro.github.io/"
+          Princeton University
+        </a>, working with <a href="https://manoelhortaribeiro.github.io/"
           target="_blank"
-          className={nameClass}>Manoel Horta Ribeiro</a>. I am affiliated with the two incredible communities in Princeton: <a href="https://citp.princeton.edu/" target="_blank" className={linkClass}>Center for Information Technology Policy (CITP)</a> and <a href="https://hci.princeton.edu/" target="_blank" className={linkClass}>Princeton HCI Group</a>.
+          className={nameClass}>Manoel Horta Ribeiro</a>. I am affiliated with two incredible communities here: <a href="https://citp.princeton.edu/" target="_blank" className={linkClass}>Center for Information Technology Policy (CITP)</a> and <a href="https://hci.princeton.edu/" target="_blank" className={linkClass}>Princeton HCI Group</a>.
       </div>
       <div className="pt-1">
       I am passionate about sense of hope & anxiety in contemporary society, which I believe is inevitably tied with our information ecology. I hope to improve policy and design for individuals to cultivate and savor the flourishing meaning of everyday life with joy and hope. My research lies at the intersection of human-computer interaction (HCI), social computing, and computational social science.
@@ -94,7 +94,7 @@ const Intro = () => {
           className={nameClass}
         >
           Juho Kim
-        </a> throughout these experiences.
+        </a> throughout this journey.
 
 </div>
       <div className="pb-1 pt-1">Outside research, I love outdoor activities (especially running, biking, and hiking), playing music (piano and classic guitar), reading (I like reading <a href="https://www.amazon.com/Crisis-Narration-Byung-Chul-Han/dp/1509560432/" target="_blank" className={linkClass}>Byun Chul Han's works</a>), and writing stuffs (from low to high effort).</div>
