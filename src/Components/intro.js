@@ -1,7 +1,10 @@
 import { Button, Tooltip } from "antd";
 const Intro = () => {
   const nameClass = "hover:underline hover:decoration-wavy hover:decoration-[#68A5B3] font-normal text-gray-800 font-medium";
-
+  const linkClass = `
+  relative font-light text-gray-800
+  hover:bg-gradient-to-t hover:from-[#68A5B3]/40 hover:to-transparent
+`;
   return (
     <section className="text-[18px] leading-[177%] font-light pb-2 text-justify">
       <div className="pt-4">
@@ -14,7 +17,7 @@ const Intro = () => {
           Princeton
         </a> Computer Science, working with <a href="https://manoelhortaribeiro.github.io/"
           target="_blank"
-          className={nameClass}>Manoel Horta Ribeiro</a>. I am also affiliated with the two incredible communities in Princeton: <a href="https://citp.princeton.edu/" target="_blank">Center for Information Technology Policy (CITP)</a> and <a href="https://hci.princeton.edu/" target="_blank">Princeton HCI Group</a>.
+          className={nameClass}>Manoel Horta Ribeiro</a>. I am affiliated with the two incredible communities in Princeton: <a href="https://citp.princeton.edu/" target="_blank" className={linkClass}>Center for Information Technology Policy (CITP)</a> and <a href="https://hci.princeton.edu/" target="_blank" className={linkClass}>Princeton HCI Group</a>.
       </div>
       <div className="pt-1">
       I am passionate about sense of hope & anxiety in contemporary society, which I believe is inevitably tied with our information ecology. I hope to improve policy and design for individuals to cultivate and savor the flourishing meaning of everyday life with joy and hope. My research lies at the intersection of human-computer interaction (HCI), social computing, and computational social science.
@@ -94,7 +97,7 @@ const Intro = () => {
         </a> throughout these experiences.
 
 </div>
-      <div className="pb-1 pt-1">Outside research, I love outdoor activities (especially running, biking, and hiking), playing music (piano and classic guitar), reading (I like reading <a href="https://www.amazon.com/Crisis-Narration-Byung-Chul-Han/dp/1509560432/" target="_blank">Byun Chul Han's works</a>), and writing stuffs (from low to high effort).</div>
+      <div className="pb-1 pt-1">Outside research, I love outdoor activities (especially running, biking, and hiking), playing music (piano and classic guitar), reading (I like reading <a href="https://www.amazon.com/Crisis-Narration-Byung-Chul-Han/dp/1509560432/" target="_blank" className={linkClass}>Byun Chul Han's works</a>), and writing stuffs (from low to high effort).</div>
       <div>
         No matter who you are, what position you are in, please feel free to reach out if you want to chat (I appreciate it). I would love to listen to your stories and/or questions, and happy to share mine as well.  
       </div>
