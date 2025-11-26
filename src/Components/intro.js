@@ -17,7 +17,8 @@ const Intro = () => {
           Princeton University
         </a>, working with <a href="https://manoelhortaribeiro.github.io/"
           target="_blank"
-          className={nameClass}>Manoel Horta Ribeiro</a>, as a part of <a href="http://humans.cs.princeton.edu/">Humans & Machines Lab</a>. I am affiliated with two incredible communities here: <a href="https://citp.princeton.edu/" target="_blank" className={linkClass}>Center for Information Technology Policy (CITP)</a> and <a href="https://hci.princeton.edu/" target="_blank" className={linkClass}>Princeton HCI Group</a>.
+          className={nameClass}>Manoel Horta Ribeiro</a>, as a part of <a href="http://humans.cs.princeton.edu/" target="_blank" className={nameClass}>Humans & Machines Lab</a>. 
+          I am affiliated with two incredible communities here: <a href="https://citp.princeton.edu/" target="_blank" className={linkClass}>Center for Information Technology Policy (CITP)</a> and <a href="https://hci.princeton.edu/" target="_blank" className={linkClass}>Princeton HCI Group</a>.
       </div>
       <div className="pt-1">
       I am passionate about sense of hope & anxiety in contemporary society, which I believe is inevitably tied with our information ecology. I hope to improve policy and design for individuals to cultivate and savor the flourishing meaning of everyday life with joy and hope. My research lies at the intersection of human-computer interaction (HCI), social computing, and computational social science.
