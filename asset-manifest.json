@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.30d5ec9b.css",
-    "main.js": "/static/js/main.38c9b264.js",
+    "main.js": "/static/js/main.0f989007.js",
     "static/js/453.8a12b692.chunk.js": "/static/js/453.8a12b692.chunk.js",
     "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
     "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
@@ -21,11 +21,11 @@
     "static/media/fira-code-symbols2-400-normal.woff2": "/static/media/fira-code-symbols2-400-normal.0412f32d131ffee849a4.woff2",
     "index.html": "/index.html",
     "main.30d5ec9b.css.map": "/static/css/main.30d5ec9b.css.map",
-    "main.38c9b264.js.map": "/static/js/main.38c9b264.js.map",
+    "main.0f989007.js.map": "/static/js/main.0f989007.js.map",
     "453.8a12b692.chunk.js.map": "/static/js/453.8a12b692.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.30d5ec9b.css",
-    "static/js/main.38c9b264.js"
+    "static/js/main.0f989007.js"
   ]
 }
