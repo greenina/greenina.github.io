@@ -75,20 +75,20 @@ const PublicationEntry = ({ publication }) => {
             {publication.openreview && (
               <PubBtn href={publication.openreview} text="OpenReview" />
             )}
-            {/* {publication.abstract && (
+            {publication.abstract && (
               <div
                 className="cursor-pointer"
                 onClick={() => setAbstract(!abstract)}
               >
                 <PubBtn text="Abstract" />
               </div>
-            )} */}
+            )}
           </span>
-          {/* {abstract && (
-            <div className="px-3 py-2 mt-2 border-l-4 border-green-300 text-gray-600 text-sm">
+          {abstract && (
+            <div className="px-3 py-2 mt-2 mb-2 border-l-4 border-primary text-gray-600 text-sm">
               {publication.abstract}
             </div>
-          )} */}
+          )}
         </div>
       </div>
     </div>
