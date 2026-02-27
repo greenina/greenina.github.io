@@ -21,7 +21,7 @@ const Intro = () => {
           I am affiliated with two incredible communities here: <a href="https://citp.princeton.edu/" target="_blank" className={linkClass}>Center for Information Technology Policy (CITP)</a> and <a href="https://hci.princeton.edu/" target="_blank" className={linkClass}>Princeton HCI Group</a>. I am fortunate to be supported by the Gordon Wu Fellowship.
       </div>
       <div className="pt-1">
-      I am passionate about sense of hope & anxiety in contemporary society, which I believe is inevitably tied with our information ecology. I hope to improve policy and design for individuals to cultivate and savor the flourishing meaning of everyday life with joy and hope. My research lies at the intersection of human-computer interaction (HCI), social computing, and computational social science.
+      I am passionate about the precarious conditions of individuals in contemporary society, which I believe is inevitably tied with our information ecology. I hope to improve policy and design for individuals to cultivate and savor the flourishing meaning of everyday life with joy and hope. My research lies at the intersection of human-computer interaction (HCI), social computing, and computational social science.
 
       </div>
       <div className="pt-1">
