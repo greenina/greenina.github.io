@@ -21,7 +21,7 @@ const Intro = () => {
           I am affiliated with two incredible communities here: <a href="https://citp.princeton.edu/" target="_blank" className={linkClass}>Center for Information Technology Policy (CITP)</a> and <a href="https://hci.princeton.edu/" target="_blank" className={linkClass}>Princeton HCI Group</a>. I am fortunate to be supported by the Gordon Wu Fellowship.
       </div>
       <div className="pt-1">
-      I am passionate about the precarious<sup><a href="https://www.annualreviews.org/content/journals/10.1146/annurev-anthro-102116-041644" target="_blank" className="hover:text-primary hover:underline">1</a></sup> conditions of individuals in contemporary society, which I believe is inevitably tied with our information ecology. I hope to improve policy and design for individuals to cultivate and savor the flourishing meaning of everyday life with joy and hope. My research lies at the intersection of human-computer interaction (HCI), social computing, and computational social science.
+      I am passionate about the socio-technical conditions of precarity<sup><a href="https://www.annualreviews.org/content/journals/10.1146/annurev-anthro-102116-041644" target="_blank" className="hover:text-primary hover:underline">1</a></sup> in contemporary society, which I believe is inevitably tied with our information ecology. I hope to improve policy and design for individuals to cultivate and savor the flourishing meaning of everyday life with joy and hope. My research lies at the intersection of human-computer interaction (HCI), social computing, and computational social science.
 
       </div>
       <div className="pt-1">
@@ -98,8 +98,7 @@ const Intro = () => {
         </a> throughout this journey.
 
 </div>
-      <div className="pb-1 pt-1">Outside research, I love outdoor activities (especially running, biking, and hiking), playing music (piano and classic guitar), reading (I like reading <a href="https://www.amazon.com/Crisis-Narration-Byung-Chul-Han/dp/1509560432/" target="_blank" className={linkClass}>Byun Chul Han's works</a>), and writing stuffs (from low to high effort).</div>
-      <div>
+      <div className="pb-1 pt-1">Outside research, I love outdoor activities (especially running, biking, and hiking), playing music (piano and classic guitar), reading (recently, I spend time reading <a href="https://www.amazon.com/Crisis-Narration-Byung-Chul-Han/dp/1509560432/" target="_blank" className={linkClass}>Byun Chul Han's works</a>), and writing stuffs (from low to high effort).
         No matter who you are, what position you are in, please feel free to reach out if you want to chat (I appreciate it). I would love to listen to your stories and/or questions, and happy to share mine as well.  
       </div>
       </section> 
