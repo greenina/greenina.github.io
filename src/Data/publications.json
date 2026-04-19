@@ -28,6 +28,8 @@
             0
         ],
         "year": 2026,
+        "doi": "https://dl.acm.org/doi/10.1145/3772318.3790766",
+        "slides": "https://drive.google.com/file/d/1Kwkt5x2BV-lMdsiDMHQx4S2WS8iUrz9j/view?usp=sharing",
         "booktitle": "ACM CHI 2026",
         "state": "ACM CHI 2026 (Full paper)",
         "awards": [],
@@ -217,44 +219,6 @@
         "video": "",
         "arxiv": "",
         "abstract": "This workshop explores how mobile technology impacts teen well-being, moving beyond traditional screen-time limits to embrace nuanced strategies that consider quality of use, family dynamics, and sociocultural contexts. If you’re passionate about exploring teen mobile technology use, well-being, and mental health, join us for engaging conversations and collaborative discussions."
-    },
-    {
-        "title": "Bridging Values and Technology in God-Saeng (God生) Phenomenon: Designing AI for Self-Directed Well-being",
-        "img": "",
-        "authors": [
-            {
-                "name": "Inhwa Song",
-                "url": ""
-            },
-            {
-                "name": "Kwangyoung Lee",
-                "url": "https://kylee5514.github.io"
-            },
-            {
-                "name": "Janghee Cho",
-                "url": "https://jangheecho15.github.io"
-            },
-            {
-                "name": "Amon Rapp",
-                "url": "https://scholar.google.com/citations?hl=en&user=5W4AxFsAAAAJ"
-            },
-            {
-                "name": "Hwajung Hong",
-                "url": "https://galaxytourist.notion.site/galaxytourist/Hwajung-Hong-cc10b0291bbe4ca38dbf4882cd687423"
-            }
-        ],
-        "highlight_author": [
-            0
-        ],
-        "year": 2024,
-        "booktitle": "ACM CHI'24",
-        "state": "ACM CHI 2024 (Workshop paper—Designing (with) AI for Wellbeing)",
-        "awards": [],
-        "url": "",
-        "pdf": "PDF/godsaeng-workshop.pdf",
-        "video": "",
-        "arxiv": "",
-        "abstract": ""
     },
     {
         "title": "Learnersourcing Modular and Dynamic Multiple Choice Questions",

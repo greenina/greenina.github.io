@@ -72,6 +72,7 @@ const PublicationEntry = ({ publication }) => {
             {publication.code && <PubBtn href={publication.code} text="GitHub" />}
             {publication.video && <PubBtn href={publication.video} text="Video" />}
             {publication.arxiv && <PubBtn href={publication.arxiv} text="Arxiv" />}
+            {publication.slides && <PubBtn href={publication.slides} text="Slides" />}
             {publication.openreview && (
               <PubBtn href={publication.openreview} text="OpenReview" />
             )}
