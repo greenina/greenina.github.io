@@ -50,7 +50,8 @@ const Home = () => {
           </a>
         </div>
         <div className='mt-4'>
-          inhwa.song [at] princeton.edu
+          {'{firstname}.{lastname} [at] princeton.edu'}
+          
         </div>
 
         <div className="mt-4 w-full">
