@@ -21,7 +21,8 @@ const Intro = () => {
           I am affiliated with two incredible communities here: <a href="https://citp.princeton.edu/" target="_blank" className={linkClass}>Center for Information Technology Policy (CITP)</a> and <a href="https://hci.princeton.edu/" target="_blank" className={linkClass}>Princeton HCI Group</a>. I am fortunate to be supported by the Gordon Wu Fellowship.
       </div>
       <div className="pt-1">
-      I am passionate about the socio-technical conditions of precarity<sup><a href="https://www.annualreviews.org/content/journals/10.1146/annurev-anthro-102116-041644" target="_blank" className="hover:text-primary hover:underline">1</a></sup> in contemporary society, which I believe is inevitably tied with our information ecology. I hope to improve policy and design for individuals to cultivate and savor the flourishing meaning of everyday life with joy and hope. My research lies at the intersection of human-computer interaction (HCI), social computing, and computational social science.
+      I am interested in what makes information valuable in information ecosystems, especially as information becomes increasingly abundant and easy to produce. I see this value not as inherent in information itself, but as shaped by how people and communities create and engage with information, and by the technologies and institutions around them. Building on this understanding, I seek to reimagine how information ecosystems could better support individual and collective flourishing, and to design and build technologies toward that future. My work draws from human-computer interaction (HCI), social computing, and computational social science, while also looking to science and technology studies (STS) for perspectives on these questions.
+
 
       </div>
       <div className="pt-1">
