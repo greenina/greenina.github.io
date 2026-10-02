@@ -9,7 +9,7 @@ const Intro = () => {
     <section className="text-[18px] leading-[177%] font-light pb-2 text-justify">
       <div className="pt-4">
         Hello! Thanks for visiting :)
-        I am a 1st year PhD student in Computer Science at 🐯<a
+        I am a second-year PhD student in Computer Science at 🐯<a
           href="https://cs.princeton.edu"
           className="text-[#E77500] font-medium hover:font-bold"
           target="_blank"
