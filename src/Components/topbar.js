@@ -43,7 +43,7 @@ export const Topbar = (props) => {
                         className='hover:text-primary cursor-pointer'
                         href="/#publications">Publications</a>
 
-                    <a className='hover:text-primary cursor-pointer' href="https://docs.google.com/document/d/1_ZGuOP94-1kckQbOkkY-SongxzJVprdv0Ayx1lG5a30/edit?usp=sharing" target="_blank">CV</a>
+                    <a className='hover:text-primary cursor-pointer' href="https://docs.google.com/document/d/1YRbgp6F9fe-L99wuqSvY6XYfj7Ztfzpn-vleFEh0R3Q/edit?usp=sharing" target="_blank">CV</a>
                 </div>
             </div>
         </nav>

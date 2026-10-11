@@ -63,6 +63,12 @@ const Home = () => {
       </section>
       <section className="flex-[3.5] p-5 text-left">
         <Intro />
+        {/* <div className="my-4 rounded-lg border border-[#E77500] bg-[#E77500]/10 px-4 py-3 text-gray-700">
+          <div className="font-bold text-[#E77500]">🔎 Looking for 2027 Summer Research Internship!</div>
+          <div className="mt-1">
+            If you know of a relevant position, please let me know or spread the word. Thank you :)
+          </div>
+        </div> */}
         <section id="publications">
           <Publications />
         </section>
