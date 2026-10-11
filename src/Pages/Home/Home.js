@@ -56,7 +56,9 @@ const Home = () => {
 
         <div className="mt-4 w-full">
           <div className="text-primary text-2xl font-black mb-2 text-left">News</div>
-          <News />
+          <div className="max-h-96 overflow-y-auto pr-2">
+            <News />
+          </div>
         </div>
       </section>
       <section className="flex-[3.5] p-5 text-left">

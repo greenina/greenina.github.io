@@ -33,18 +33,15 @@ export const Topbar = (props) => {
                 <div className='flex space-x-10 text-xl font-semibold text-gray-500'>
                     {/* <a onClick={(e) => navigate("/#")}>Home</a> */}
                     {/* <a href="#publications">Publications</a> */}
-                    <a
+                    {/* <a
                         className='hover:text-primary cursor-pointer'
                         onClick={(e) => {
                             navigate("/projects")
                             window.scrollTo(0, 0);
-                        }}>Projects</a>
+                        }}>Projects</a> */}
                     <a
                         className='hover:text-primary cursor-pointer'
-                        onClick={(e) => {
-                            navigate("/publications")
-                            window.scrollTo(0, 0);
-                        }}>Publications</a>
+                        href="/#publications">Publications</a>
 
                     <a className='hover:text-primary cursor-pointer' href="https://docs.google.com/document/d/1_ZGuOP94-1kckQbOkkY-SongxzJVprdv0Ayx1lG5a30/edit?usp=sharing" target="_blank">CV</a>
                 </div>
