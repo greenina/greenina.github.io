@@ -1,4 +1,38 @@
 [
+        {
+        "title": "When the Commons Appropriates a Large Language Model: How WikiVault Reshaped Korean Wikipedia",
+        "img": "/PDF/teaser/wv_interface.jpeg",
+        "authors": [
+            {
+                "name": "Inhwa Song",
+                "url": ""
+            },
+            {
+                "name": "Sohyeon Hwang",
+                "url": "https://www.sohyeonhwang.com/"
+            },
+            {
+                "name": "Ted Yoo",
+                "url": ""
+            },
+            {
+                "name": "Manoel Horta Ribeiro",
+                "url": "https://manoelhortaribeiro.github.io/"
+            }
+        ],
+        "highlight_author": [
+            0
+        ],
+        "year": 2026,
+        "doi": "",
+        "slides": "",
+        "booktitle": "Preprint",
+        "state": "Preprint",
+        "awards": [],
+        "arxiv": "http://arxiv.org/abs/2610.07660",
+        "pdf": "",
+        "abstract": "Large Language Models (LLMs) have disrupted the balance between content production and quality assurance that sustains knowledge commons, leading many to prohibit or restrict their use. But what happens when a community instead appropriates an LLM-powered tool for its own needs? We investigate this question through WikiVault, an LLM-powered editing tool developed within the Korean Wikipedia community and used primarily for translation. Combining ten interviews, platform-scale analyses, and matched quasi-experimental comparisons, we examine how WikiVault reshaped knowledge production on Korean Wikipedia. We find the tool 1) drastically amplified the production capacity of a small group of experienced editors, producing longer and more widely viewed articles; 2) shifted work toward reviewing articles and importing content; 3) imported not only content but also editorial judgments from English Wikipedia. Our findings show how LLM adoption can rebalance the interdependent work that sustains knowledge commons, while illustrating how communities can learn from emerging technologies through use and adapt their governance accordingly."
+    },
     {
         "title": "Constructing Everyday Well-Being: Insights from God-Saeng (God生) for Personal Informatics",
         "img": "/PDF/teaser/godsaeng-teaser2.png",
