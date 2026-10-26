@@ -34,6 +34,34 @@
         "abstract": "Large Language Models (LLMs) have disrupted the balance between content production and quality assurance that sustains knowledge commons, leading many to prohibit or restrict their use. But what happens when a community instead appropriates an LLM-powered tool for its own needs? We investigate this question through WikiVault, an LLM-powered editing tool developed within the Korean Wikipedia community and used primarily for translation. Combining ten interviews, platform-scale analyses, and matched quasi-experimental comparisons, we examine how WikiVault reshaped knowledge production on Korean Wikipedia. We find the tool 1) drastically amplified the production capacity of a small group of experienced editors, producing longer and more widely viewed articles; 2) shifted work toward reviewing articles and importing content; 3) imported not only content but also editorial judgments from English Wikipedia. Our findings show how LLM adoption can rebalance the interdependent work that sustains knowledge commons, while illustrating how communities can learn from emerging technologies through use and adapt their governance accordingly."
     },
     {
+        "title": "Information Wellbeing: Does Being Informed Have to Make us Anxious?",
+        "authors": [
+            {
+                "name": "Marianne Aubin Le Quéré*",
+                "url": "https://mariannealq.com/"
+            },
+            {
+                "name": "Inhwa Song*",
+                "url": ""
+            },
+            {
+                "name": "Manoel Horta Ribeiro",
+                "url": "https://manoelhortaribeiro.github.io/"
+            }
+        ],
+        "highlight_author": [
+            1
+        ],
+        "year": 2026,
+        "doi": "",
+        "slides": "",
+        "booktitle": "Preprint",
+        "state": "Preprint (stay tuned!)",
+        "awards": [],
+        "pdf": "",
+        "abstract": "Staying informed about current events is essential for democracy, yet high exposure may contribute to stress and anxiety. Through a mixed methods study we introduce and investigate ‘information wellbeing,’ the state in which individuals remain informed while limiting news-related anxiety. We interviewed 16 participants with high news knowledge and low news anxiety, which guided a large-scale, four-week cross-sectional survey (n=828). We find only 16% of people meet our definition of information wellbeing, and surprisingly, our preregistered analysis found a negligible negative knowledge--anxiety relationship (r=-.07, p=.04). Instead, information wellbeing tracks demographics and consumption channel: older, male, educated respondents have higher information wellbeing, and those who use and trust social media for news have less.Only news efficacy and active news seeking correlate with knowledge at no anxiety cost. Our findings challenge approaches to digital wellbeing centered on reducing news exposure, instead pointing toward designs that support active and confident news engagement."
+    },
+    {
         "title": "Constructing Everyday Well-Being: Insights from God-Saeng (God生) for Personal Informatics",
         "img": "/PDF/teaser/godsaeng-teaser2.png",
         "authors": [
