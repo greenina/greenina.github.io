@@ -94,12 +94,12 @@ const Intro = () => {
         </a> who have shaped how I think about and approach research.
         My research draws on human-computer interaction (HCI), social computing, and computational social science, while also exploring perspectives from science and technology studies (STS).
 </div>
-        <div className="my-4 rounded-lg border border-[#E77500] bg-[#E77500]/10 px-4 py-3 text-gray-700">
+        {/* <div className="my-4 rounded-lg border border-[#E77500] bg-[#E77500]/10 px-4 py-3 text-gray-700">
           <div className="font-bold text-[#E77500]">🔎 Looking for 2027 Summer Research Internship!</div>
           <div className="mt-1">
             If you know of a relevant position, please let me know or spread the word. Appreciate it! 
           </div>
-        </div>
+        </div> */}
       <div className="pt-1">
       I've been recently interested in what makes information valuable in contemporary information ecosystems, especially as content becomes increasingly abundant and easy to produce. I see this value not as inherent in information itself, but as shaped by how people and communities create and engage with information, and by the technologies and institutions around them. Building on this understanding, I seek to reimagine how information ecosystems could better support individual and collective flourishing, and to design and build technologies toward that future. 
 
